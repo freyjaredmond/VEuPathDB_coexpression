@@ -1,0 +1,212 @@
+---
+title: "EGAD"
+output: html_document
+date: "2026-10-08"
+---
+
+```{r}
+library(EGAD)
+library (ROCR)
+```
+
+
+# read the TOM and the propagated GO
+```{r}
+go <- as.data.frame(readr::read_delim("asper_computed_propagated.tsv", delim = "\t"))
+network <- readRDS("asper_pearson_p4.rds")
+```
+
+
+# make the labels for EGAD
+```{r}
+labels <- make_annotations(go[, 1:2],          # genes in column 1, terms in column 2
+                           rownames(network),  # rows: every network gene, in network order
+                           unique(go[[2]]))    # columns: every GO term
+nrow(labels) == nrow(network)    
+sum(labels) > 0                 
+# the GO terms that are tested for multi analysis
+labels_f <- filter_network_cols(labels, min = 20, max = 300)
+ncol(labels_f)                   # GO terms tested
+```
+
+
+# run neighbour voting on the real network
+```{r}
+set.seed(1)
+neigh <- run_GBA(network, labels, min = 20, max = 300, nfold = 3)
+# neigh: [[1]] per-term table, [[2]] predictions, [[3]] mean AUROC
+
+network_nv_auroc          <- neigh[[3]]                                          # mean neighbour-voting AUROC
+network_degree_null_auroc <- mean(neigh[[1]][, "degree_null_auc"], na.rm = TRUE) # hub control
+
+network_nv_auroc
+network_degree_null_auroc
+nrow(neigh[[1]])                                                                 # GO terms tested
+```
+
+
+# multifunctionality (a property of the annotations, the same for every network)
+```{r}
+multi     <- calculate_multifunc(labels_f)
+multi_auc <- auc_multifunc(labels_f, as.numeric(multi[, 4]))   # column 4 = multifunctionality rank
+
+multifunc_auroc <- mean(multi_auc, na.rm = TRUE)
+multifunc_auroc
+```
+
+
+# random: shuffled-label baseline
+```{r}
+set.seed(1)
+
+# a random order of the row numbers
+new_order <- sample(nrow(labels_f))
+
+# reorder the rows: each gene's whole set of GO terms moves together
+labels_shuf <- labels_f[new_order, , drop = FALSE]
+
+# put the gene IDs back in their original order,
+# so each gene now carries another gene's GO terms
+rownames(labels_shuf) <- rownames(labels_f)
+
+# run neighbour voting on the shuffled labels- dont need the predictions so just run neighbhour_voting
+res <- neighbor_voting(labels_shuf, network, nFold = 3, output = "AUROC")
+# res: one row per GO term, columns "auc", "avg_node_degree", "degree_null_auc"
+
+random_nv_auroc          <- mean(res[, "auc"], na.rm = TRUE)
+random_degree_null_auroc <- mean(res[, "degree_null_auc"], na.rm = TRUE)
+
+random_nv_auroc
+random_degree_null_auroc
+```
+
+
+# results: network vs random
+```{r}
+results <- data.frame(
+  metric = c("Neighbour-voting AUROC",
+             "Degree-null AUROC",
+             "Multifunctionality AUROC"),
+  network = c(network_nv_auroc,
+              network_degree_null_auroc,
+              multifunc_auroc),
+  # multifunctionality depends only on the annotations, and shuffling whole rows
+  # does not change it, so it has no separate random value
+  random = c(random_nv_auroc,
+             random_degree_null_auroc,
+             NA)
+)
+
+results
+
+write.table(results, "egad_results_asper_pearson_p4.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+```
+# Complex analysis 
+
+# AUROC
+```{r}
+library(EGAD)
+library (ROCR)
+
+network <- readRDS("asper_pearson_p2.rds")
+complex <- as.data.frame(readr::read_delim("asper_gene_complex.tsv", delim = "\t"))
+# filter out complex genes that aren't in the network
+complex   <- complex[complex$Gene %in% rownames(network), ]
+# get number of genes assigned to a complex
+nrow(complex)
+
+# run auroc
+per_gene_auroc <- function(network, cx) {
+  auc <- c()
+  for (i in seq_len(nrow(cx))) { # for every complex gene
+    gene     <- cx$Gene[i]
+    partners <- cx$Gene[cx$Complex == cx$Complex[i] & cx$Gene != gene] #get its partners
+    others   <- setdiff(rownames(network), gene) #get all genes that arent the goi
+    scores   <- network[gene, others] #get the edge weights for every gene
+    labels   <- as.integer(others %in% partners) # true false for partner relationships
+    pred     <- prediction(scores, labels) #rocr function to pair scores with label
+    auc[i]   <- performance(pred, "auc")@y.values[[1]] #acccess the values
+  }
+  auc #return
+}
+
+# run on network 
+gene_auc <- per_gene_auroc(network, complex)
+complex$AUROC <- gene_auc
+network_auroc <- mean(gene_auc)
+network_auroc
+
+# check for each complex (one complex might consistently peform poorly)
+per_complex <- tapply(complex$AUROC, complex$Complex, mean)
+per_gene <- complex[order(complex$Complex, complex$AUROC), ] 
+
+print(per_gene) 
+
+
+```
+
+# run precision-recall
+```{r}
+pairs <- as.data.frame(readr::read_delim("asper_complex_pairs_10.tsv", delim = "\t"))
+# filter out pairs that arent in the network
+pairs <- pairs[pairs$Gene1 %in% rownames(network) & pairs$Gene2 %in% rownames(network), ]
+# get number of genes assigned to a complex
+nrow(pairs)
+
+# run pr using rocr
+pair_pr <- function(network, pairs) {
+  scores <- network[cbind(pairs$Gene1, pairs$Gene2)] #get the scores for both
+  pred   <- prediction(scores, pairs$Label) #pair scores with label
+  auprc  <- performance(pred, "aucpr")@y.values[[1]] #run aupcr
+  prior  <- mean(pairs$Label) # divide by the proportion of positives/all pairs available - make it comparable between organisms
+  log2(auprc / prior) # long transform 
+}
+
+network_pr    <- pair_pr(network, pairs)
+network_pr
+```
+
+# run on random network 
+```{r}
+set.seed(1)
+n_shuffles   <- 10
+random_auroc <- c()
+random_pr    <- c()
+
+for (r in 1:n_shuffles) {
+  # each network gene gets another gene's ID but retains the information in correct order
+  new_id <- setNames(sample(rownames(network)), rownames(network))
+
+  cx_shuf       <- complex
+  cx_shuf$Gene  <- new_id[complex$Gene] #apply the new shuffle
+
+  pairs_shuf       <- pairs
+  pairs_shuf$Gene1 <- new_id[pairs$Gene1] #apply to the pairs
+  pairs_shuf$Gene2 <- new_id[pairs$Gene2]
+
+  random_auroc[r] <- mean(per_gene_auroc(network, cx_shuf))  #run
+  random_pr[r]    <- pair_pr(network, pairs_shuf) #run 
+}
+```
+
+# table
+
+```{r}
+# results table
+complex_results <- data.frame(
+  metric      = c("Per-gene AUROC (mean)", "Pair PR log2(auPRC/prior)"),
+  network     = c(network_auroc, network_pr),
+  random_mean = c(mean(random_auroc), mean(random_pr)),
+  random_sd   = c(sd(random_auroc), sd(random_pr))
+)
+complex_results
+
+write.table(complex_results, "complex_results_asper_pearson_p4_10.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+per_complex_df <- data.frame(Complex = names(per_complex), AUROC = as.numeric(per_complex))
+write.table(per_complex_df, "per_complex_results_asper_pearson_p4_10.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+
+
+```
+
+
+
