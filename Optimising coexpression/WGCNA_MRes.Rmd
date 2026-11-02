@@ -1,3 +1,4 @@
+# A script to produce coexpression networks from WGCNA, Pearsons and Spearman's. Different combinations of batch correction and quantile normalisation was explored to optimise all methods.
 ---
 title: "WGCNA Asper"
 output: html_document
@@ -27,14 +28,12 @@ expr_matrix <- as.matrix(data[, -1])
 #filter out lowly expressed genes
 rownames(expr_matrix) <- gene_ids
 
-nrow(expr_matrix)                                             # genes before filtering
 
 keep <- rowSums(expr_matrix >= 1) >= 0.1 * ncol(expr_matrix)  # >= 1 TPM in at least 10% of samples
 
 expr_matrix <- expr_matrix[keep, ]
 gene_ids    <- gene_ids[keep]
 
-nrow(expr_matrix)                                             # genes after filtering
 
 ##batch correct
 batch_vector <- c(rep("AP_01", 4),
@@ -56,41 +55,40 @@ batch_vector <- c(rep("AP_01", 4),
 log2_tpm <- log2(expr_matrix + 1)
 
 
-## quantile check BEFORE normalisation (Langfelder, WGCNA FAQ Q4)
+## quantile check 
 # assign colours to the datasets
-#batch_cols <- as.numeric(factor(batch_vector, levels = unique(batch_vector)))
+batch_cols <- as.numeric(factor(batch_vector, levels = unique(batch_vector)))
 #calculate the percentiles
-#sample_q <- t(apply(log2_tpm, 2, quantile, probs = c(0.3, 0.5, 0.7, 0.8, 0.9)))
+sample_q <- t(apply(log2_tpm, 2, quantile, probs = c(0.3, 0.5, 0.7, 0.8, 0.9)))
 #scatterplot of each pair of percentiles
-#pairs(sample_q, col = rainbow(max(batch_cols))[batch_cols], pch = 19, main = "Sample quantiles before normalisation")
+pairs(sample_q, col = rainbow(max(batch_cols))[batch_cols], pch = 19, main = "Sample quantiles before normalisation")
 # get the correlation
-#round(cor(sample_q), 2)
+round(cor(sample_q), 2)
 
 
 ## quantile normalisation to remove the shifts
-#log2_tpm <- normalizeBetweenArrays(log2_tpm, method = "quantile")
-
+log2_tpm <- normalizeBetweenArrays(log2_tpm, method = "quantile")
+# batch correct
 corrected <- ComBat(dat = log2_tpm, batch = batch_vector)
 
 ## quantile check AFTER normalisation + ComBat
-#sample_q_after <- t(apply(corrected, 2, quantile, probs = c(0.3, 0.5, 0.7, 0.8, 0.9)))
-#pairs(sample_q_after, col = rainbow(max(batch_cols))[batch_cols], pch = 19,
-#      main = "Sample quantiles after normalisation")
-#round(apply(sample_q_after, 2, range), 2)
+sample_q_after <- t(apply(corrected, 2, quantile, probs = c(0.3, 0.5, 0.7, 0.8, 0.9)))
+pairs(sample_q_after, col = rainbow(max(batch_cols))[batch_cols], pch = 19,
+      main = "Sample quantiles after normalisation")
+round(apply(sample_q_after, 2, range), 2)
 
 rownames(corrected) <- gene_ids
 pearsons_data <- t(corrected)
 write.table(corrected, "asper_expression_matrix.tsv", sep = "\t",
             row.names = TRUE, col.names = NA, quote = FALSE)
-```
 
-pearsons <- 0.5 * (1+cor(wgcna_data))
-saveRDS(pearsons, "asper_pearson_p3.rds")
+pearsons <- 0.5 * (1+cor(wgcna_data)) # scaled as negative values would impact downstream analysis
+saveRDS(pearsons, "asper_pearson.rds")
 #spearmans <- 0.5 * (1 + cor(wgcna_data, method = "spearman"))
-#saveRDS(spearmans, "asper_spearmans_p2.rds")
+#saveRDS(spearmans, "asper_spearmans.rds")
 
 
-# Soft threshold
+# Soft threshold for wgcna
 powers <- c(1:20)
 sft <- pickSoftThreshold(wgcna_data,
                          powerVector = powers,
@@ -120,12 +118,9 @@ text(sft$fitIndices[, 1],
      sft$fitIndices[, 5],
      labels = powers,
     cex = cex1, col = "red")
-```
 
-
-```{r}
 # Run WGCNA
-sp <- 12
+sp <- sft$powerEstimate
 temp_cor <- cor
 cor <- WGCNA::cor
 net <- blockwiseModules(
@@ -159,12 +154,12 @@ network_genes <- colnames(wgcna_data)[net$goodGenes]
 
 rownames(TOM) <- network_genes
 colnames(TOM) <- network_genes
-saveRDS(TOM, "asper_TOM_p3.rds")
+saveRDS(TOM, "asper_TOM.rds")
 
 # get module assignments
 mods <- module_colors[net$goodGenes]
 gene_modules <- data.frame(Gene = network_genes, Module = mods)
-write.table(gene_modules, "asper_gene_modules_p3.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(gene_modules, "asper_gene_modules.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
 grey <- mods %in% c("grey")
 # create a binary criteria for module membership
 module_net <- outer(mods, mods, "==") * 1
@@ -173,7 +168,7 @@ module_net[, grey] <- 0
 diag(module_net) <- 1 # grey genes that match with themself should be 1
 rownames(module_net) <- network_genes
 colnames(module_net) <- network_genes
-saveRDS(module_net, "asper_TOM_modules_p3.rds")
+saveRDS(module_net, "asper_TOM_modules.rds")
 
 get_top50 <- function(genes_of_interest, TOM, data_type, module_colors) {
   results <- data.frame()
@@ -244,16 +239,16 @@ get_50 <- function(genes_of_interest, TOM, data_type) {
   return(results)
 }
 results_table <- get_50(genes_of_interest, TOM, data_type)
-write.table(results_table, paste0("asper_wgcna_top50_p3.tsv"), sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(results_table, paste0("asper_wgcna_top50.tsv"), sep = "\t", row.names = FALSE, quote = FALSE)
 
 pearsons  <- readRDS("asper_pearson_p3.rds")
-#spearmans <- readRDS("asper_spearmans_p2.rds")
+spearmans <- readRDS("asper_spearmans_p2.rds")
 
 results_pearson <- get_50(genes_of_interest, pearsons, data_type)
-write.table(results_pearson, "asper_pearson_top50_p3.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+write.table(results_pearson, "asper_pearson_top50.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
 
-#results_spearman <- get_50(genes_of_interest, spearmans, data_type)
-#write.table(results_spearman, "asper_spearman_top50_p2.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
+results_spearman <- get_50(genes_of_interest, spearmans, data_type)
+write.table(results_spearman, "asper_spearman_top50.tsv", sep = "\t", row.names = FALSE, quote = FALSE)
 
 
 
