@@ -3,10 +3,10 @@
 An initial comparison was run on *A. fumigatus* and *P. falciparum* to select the best-performing preprocessing for Pearson's correlation coefficient (PCC) and WGCNA. Mutual rank is derived directly from PCC, so it was not assessed separately.
 
 Four preprocessing combinations were explored:
-- [P1](Preprocessing_comparison/P1): batch correction and quantile normalisation
-- [P2](Preprocessing_comparison/P2): batch correction only
-- [P3](Preprocessing_comparison/P3): quantile normalisation only
-- [P4](Preprocessing_comparison/P4): neither
+- [P1](P1): batch correction and quantile normalisation
+- [P2](P2): batch correction only
+- [P3](P3): quantile normalisation only
+- [P4](P4): neither
 
 The metrics assessed are described in [Evaluating networks](Evaluating_networks).
 
