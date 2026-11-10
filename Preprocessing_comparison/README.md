@@ -30,6 +30,3 @@ The metrics assessed are described in [Evaluating networks](Evaluating_networks)
 | P4 | *P. falciparum* | WGCNA | N | N | 0.66 | 0.58 | 0.35 |
 
 Overall, batch correction improved complex precision-recall for both methods. Once batch-corrected, quantile normalisation offered no further advantage for Pearson but improved WGCNA.
-
-Overall, batch correction improved complex precision-recall for both methods. Once batch-corrected, quantile normalisation offered no further advantage for Pearson but improved WGCNA.
-
