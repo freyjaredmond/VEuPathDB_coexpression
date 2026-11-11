@@ -11,6 +11,20 @@
 #            (see Propagated_GO.py)
 #   - pairs: complex gene pairs (.tsv) with columns Gene1, Gene2 and Label
 #            (1 = same complex, 0 = different complexes; see Complex_Pairs.py)
+# Output (per organism):
+#   - {org}_expression_matrix.tsv        batch-corrected log2(TPM + 1) matrix (Pearson / MR input)
+#   - {org}_soft_power.tsv               soft-thresholding power used for WGCNA
+#   - {org}_blockwiseTOM-block.1.RData   WGCNA topological overlap matrix
+#   - {org}_gene_modules.tsv             WGCNA module assignment for each gene
+#   - {org}_pearson_top50.tsv            top 50 genes by Pearson correlation
+#   - {org}_mr_top50.tsv                 top 50 genes by mutual rank (lowest first)
+#   - {org}_wgcna_top50.tsv              top 50 genes by TOM (whole network)
+#   - {org}_modules_top50.tsv            top 50 genes by TOM within the gene's module
+#   - egad_results_{org}.tsv             neighbour-voting, degree-null and multifunctionality AUROC
+#                                        for each network, with shuffled-label random baseline
+#   - complex_results_{org}.tsv          complex-pair AUPRC for each network, with mean and SD
+#                                        of 10 shuffled-gene random networks
+
 library(dplyr)
 library(sva)
 library(WGCNA)
