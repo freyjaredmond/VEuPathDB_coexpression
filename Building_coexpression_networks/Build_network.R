@@ -1,6 +1,6 @@
 # Building co-expression networks
 # Builds Pearson, mutual rank (MR) and WGCNA co-expression networks for four organisms
-# (P. berghei, C. auris, A. nidulans, T. vaginalis) and extracts the top 50 co-expressed
+# (P. berghei, C. auris, A. nidulans) and extracts the top 50 co-expressed
 # genes for each gene of interest.
 #
 # Input (per organism, set in the `organisms` list):
@@ -42,13 +42,8 @@ organisms <- list(
                  genes = "Nidulan_genes.txt",
                  batch = rep(c("Nid_Development", "Nid_mtfA_veA", "Nid_Nitrogen",
                                "Nid_Conidia", "Nid_AminoAcid", "Nid_Cellulase"),
-                             times = c(3, 4, 5, 4, 3, 3))),
-  trich = list(expr = "Trich_combined.tsv", drop = c(2, 3, 4, 5),
-               genes = "trich_genes.txt",
-               batch = rep(c("Trich_MTZ", "Trich_Mycoplasma", "Trich_Apicidin"),
-                           times = c(2, 4, 2)))
+                             times = c(3, 4, 5, 4, 3, 3)))
 )
-
 # top 50 by module (TOM within the GOI's module)
 get_top50 <- function(genes_of_interest, TOM, data_type, module_colors) {
   results <- data.frame()
