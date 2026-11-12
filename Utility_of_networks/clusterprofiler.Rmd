@@ -1,0 +1,89 @@
+---
+title: "GO enrichment of top MR co-expression partners"
+output: html_document
+---
+
+GO enrichment (clusterProfiler) of the top 50 MR co-expression partners of PfABP (PF3D7_1315500), run separately for
+biological process (BP), molecular function (MF) and cellular component (CC).
+
+**Input**
+
+- `plasmo_combined_propagated.tsv`: propagated computed + curated GO annotations, wide format
+- `top_coexpressed_abp_mr.tsv`: top 50 MR co-expression partners of PfABP (PF3D7_1315500; column `correlated_gene`)
+- `plas_expression_matrix.tsv`: batch-corrected expression matrix
+
+**Output**
+
+- `GO_BP_dotplot_prop_abp_mr.png`, `GO_MF_dotplot_prop_abp_mr.png`, `GO_CC_dotplot_prop_abp_mr.png`:
+
+```{r packages}
+library(clusterProfiler)
+library(enrichplot)
+library(GO.db)
+library(tidyverse)
+packageVersion("clusterProfiler")
+```
+
+## Read in the data
+
+```{r data}
+# genes to test: top 50 MR co-expression partners of PfABP
+core_list <- read.delim("top_coexpressed_abp_mr.tsv")$correlated_gene
+# background: every gene in the network
+all_list  <- read.delim("plas_expression_matrix.tsv", row.names = 1, check.names = FALSE) %>% rownames()
+
+# propagated GO annotations, one row per gene with ";"-separated terms per ontology
+prop <- read.delim("plasmo_combined_propagated.tsv", check.names = FALSE)
+```
+
+## Reshape GO annotations
+
+```{r reshape}
+prop_long <- prop %>%
+  pivot_longer(-Gene, names_to = "Type", values_to = "GO_ID") %>%   # one row per gene x ontology
+  mutate(Type = sub(" terms", "", Type)) %>%                          # "MF terms" -> "MF"
+  filter(!is.na(GO_ID), GO_ID != "") %>%                              # drop genes with no terms
+  separate_rows(GO_ID, sep = ";") %>%                                 # one row per gene x term
+  mutate(GO_term = Term(GO_ID))                                       # look up term names from GO.db
+
+table(prop_long$Type)
+
+# term-to-gene (TERM2GENE) and term-to-name (TERM2NAME) tables for each ontology
+bp_t2g <- prop_long %>% filter(Type == "BP") %>% dplyr::select(GO_ID, Gene)
+mf_t2g <- prop_long %>% filter(Type == "MF") %>% dplyr::select(GO_ID, Gene)
+cc_t2g <- prop_long %>% filter(Type == "CC") %>% dplyr::select(GO_ID, Gene)
+bp_t2n <- prop_long %>% filter(Type == "BP") %>% dplyr::select(GO_ID, GO_term)
+mf_t2n <- prop_long %>% filter(Type == "MF") %>% dplyr::select(GO_ID, GO_term)
+cc_t2n <- prop_long %>% filter(Type == "CC") %>% dplyr::select(GO_ID, GO_term)
+```
+
+## Enrichment
+
+```{r enrichment}
+run_enrich <- function(t2g, t2n) {
+  enricher(gene          = core_list,
+           universe      = all_list,      # network genes as background
+           TERM2GENE     = t2g,
+           TERM2NAME     = distinct(t2n), # one name per GO ID
+           pvalueCutoff  = 0.05,          # BH-adjusted (enricher default)
+           qvalueCutoff  = 0.2,
+           minGSSize     = 10,
+           maxGSSize     = 300)
+}
+
+bp <- run_enrich(bp_t2g, bp_t2n)
+mf <- run_enrich(mf_t2g, mf_t2n)
+cc <- run_enrich(cc_t2g, cc_t2n)
+```
+
+## Dot plots
+
+```{r plots}
+p_bp <- dotplot(bp, showCategory = 10) + ggtitle("BP")
+p_mf <- dotplot(mf, showCategory = 10) + ggtitle("MF")
+p_cc <- dotplot(cc, showCategory = 10) + ggtitle("CC")
+
+ggsave("GO_BP_dotplot_prop_abp_mr.png", plot = p_bp, width = 20, height = 15, units = "cm", dpi = 300)
+ggsave("GO_MF_dotplot_prop_abp_mr.png", plot = p_mf, width = 20, height = 15, units = "cm", dpi = 300)
+ggsave("GO_CC_dotplot_prop_abp_mr.png", plot = p_cc, width = 20, height = 15, units = "cm", dpi = 300)
+```
