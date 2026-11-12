@@ -1,0 +1,16 @@
+organism	network_type	metric	network	random
+anoph	pearson	Neighbour-voting AUROC	0.759516837341879	0.4996019236994
+anoph	pearson	Degree-null AUROC	0.575818148120008	0.496483630957325
+anoph	pearson	Multifunctionality AUROC	0.830320014683561	NA
+anoph	wgcna	Neighbour-voting AUROC	0.475989493078746	0.501209104088728
+anoph	wgcna	Degree-null AUROC	0.574486705976408	0.497060107597108
+anoph	wgcna	Multifunctionality AUROC	0.830320014683561	NA
+anoph	modules	Neighbour-voting AUROC	0.544581124162145	0.499608335988401
+anoph	modules	Degree-null AUROC	0.544224218017055	0.499540259417095
+anoph	modules	Multifunctionality AUROC	0.830320014683561	NA
+anoph	pearson_ranked	Neighbour-voting AUROC	0.736826573900866	0.499013070430588
+anoph	pearson_ranked	Degree-null AUROC	0.57693807250662	0.496344075015803
+anoph	pearson_ranked	Multifunctionality AUROC	0.830320014683561	NA
+anoph	mr_ranked	Neighbour-voting AUROC	0.752906206281393	0.500064604850133
+anoph	mr_ranked	Degree-null AUROC	0.575884000226665	0.495693978111958
+anoph	mr_ranked	Multifunctionality AUROC	0.830320014683561	NA
