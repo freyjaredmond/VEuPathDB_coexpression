@@ -1,6 +1,6 @@
 # Preprocessing comparisons
 
-An initial comparison was run on *A. fumigatus*, *A. gambiae* ,*P. falciparum* and *T.gondii* to select the best-performing preprocessing for Pearson's correlation coefficient (PCC) and WGCNA. Mutual rank is derived directly from PCC, so it was not assessed separately.
+An initial comparison was run on *A. fumigatus*, *A. gambiae* ,*P. falciparum* and *T.gondii* to select the best-performing preprocessing for Pearson's correlation coefficient (PCC) and WGCNA.
 
 Four preprocessing combinations were explored:
 - [P1](P1): batch correction and quantile normalisation
