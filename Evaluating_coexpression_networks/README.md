@@ -1,96 +1,36 @@
 # Evaluating the co-expression networks
-Neighbour voting and complex-recovery AUPRC was run on seven organisms of varying RNA-seq coverage using [Evaluating.R](Evaluating.R). PCC, PCC ranled, WGCNA, wgcna
-binary module memebership and MR was explored
 
-Organism 
+Neighbour-voting AUROC and complex-recovery AUPRC were calculated for seven organisms with varying RNA-seq coverage using [Evaluating.R](Evaluating.R). Five networks were compared: PCC, ranked PCC, WGCNA TOM, binary WGCNA module membership and ranked MR.
 
-Strain 
+| Organism | Strain | Datasets (n) | Samples (n) |
+|---|---|---|---|
+| *Aspergillus fumigatus* | Af293 | 15 | 85 |
+| *Aspergillus nidulans* | FGSC A4 | 6 | 22 |
+| *Anopheles gambiae* | PEST | 17 | 101 |
+| *Candida auris* | B8441 | 6 | 42 |
+| *Plasmodium berghei* | ANKA | 7 | 69 |
+| *Plasmodium falciparum* | 3D7 | 27 | 285 |
+| *Toxoplasma gondii* | ME49 | 22 | 122 |
 
-Datasets (n) 
+Neighbour voting requires propagated GO annotations, generated with [Propagate.py](Propagate.py). Complex recovery requires complex members: candidates were identified from cellular component GO terms and genome annotation, and where annotation was missing or unclear, by BLASTp against *S. cerevisiae* using [blast.py](blast.py). Positive and negative pairs for AUPRC were generated with [Complex_Pairs.py](Complex_Pairs.py).
 
-Samples (n) 
+Results are in each organism's folder, e.g. [AF](AF):
+- Neighbour-voting results: [egad_results](AF/egad_results_asper.tsv)
+- Complex AUPRC results: [complex_results](AF/complex_results_asper.tsv)
+- WGCNA soft power: [soft_power](AF/asper_soft_power.tsv)
+- BLAST hits: [blast_hits](AF/afum_complex_top_blast_hits.tsv)
+- Complex pairs: [complex_pairs](AF/asper_complex_pairs.tsv)
+- Propagated GO terms: [propagated_GO](AF/asper_computed_propagated.tsv)
 
-Aspergillus fumigatus 
+Overall, neighbour-voting AUROC was very similar across methods, but ranked MR outperformed the others in complex recovery, and WGCNA performed poorly.
 
-Af293 
-
-15 
-
-85 
-
-Aspergillus nidulans 
-
-FGSC A4 
-
-6 
-
-22 
-
-Anopheles gambiae 
-
-PEST 
-
-17 
-
-101 
-
-Candida auris 
-
-B8441 
-
-6 
-
-42 
-
-Plasmodium berghei 
-
-ANKA 
-
-7 
-
-69 
-
-Plasmodium falciparum 
-
-3D7 
-
-27 
-
-285 
-
-Toxoplasma gondii 
-
-ME49 
-
-22 
-
-Neighbour voting requires propagated GO terms that were generated with [Propagate.py](Propogate.py) and complex-recovery requires complex members
-which were identifed using cell compartment GO terms to identify candidates and where annotation was missing or unclear, were identified using S. cervisiae BLASR
-matching [blast.py](blast.py). Positive and negtaive pairs for AUPRC were generated using [Complex_Pairs.py](Complex_Pairs.py).
-
-The results of Neighbour voting and AUPRC are given in each organisms folder i.e [AF](AF).
-This includes:
-- Neighbour voting results [egad_results](AF/egad_results_asper.tsv)
-- Complex AUPRC results    [complex_results](AF/complex_results_asper.tsv)
-- WGCNA soft power         [soft power](AF/asper_soft_power.tsv)
-- BLAST hits     [blast hits](AF/afum_complex_top_blast_hits.tsv)
-- Complex pairs [complex pais](AF/asper_complex_pairs.tsv)
-- Propagated GO terms [Propagated GO terms](AF/asper_computed_propagted)
-
-Overall Neighbour voting was very similar acorss methods, but MR outperformed others in complex recovery- WGCNA was poor here
 # Subsampling
 
-Subsampling was run in increasing intervals of 2 datasets for 5 random combinations to determine the optimal sample/dataset size.
-This was also run with half the number of samples.
-To generate the draws used, the following scripts were used [full](sample_cutoffs.py) and [half](sample_cutoffs_half.py) which were then 
-run using [subsample.R](subsample.R). Results were explored with [explore](explore_subsample.py) and plotted with [plot](plot_subsample.py)
-[results](Subsampling/cutoff_bins_all_genomes.tsv).
+To determine the minimum sample size, ranked MR networks were built from five random combinations of datasets at every second dataset count (2, 4, 6, …), and rerun with half the samples from each dataset. The draws were generated with [sample_cutoffs.py](sample_cutoffs.py) (full) and [sample_cutoffs_half.py](sample_cutoffs_half.py) (half), and networks were built and evaluated with [subsample.R](subsample.R). Results were summarised with [explore_subsample.py](explore_subsample.py) ([results](Subsampling/cutoff_bins_all_genomes.tsv)) and plotted with [plot_subsample.py](plot_subsample.py).
 
-Overall sample size was determined to be the major driver as same samples sizes with more datasets did not generally improve the results.
-Asper fum was found to be best performing network and T. gondii the worst.
+Sample number was the main driver of performance: at the same sample size, networks with more datasets did not generally perform better. *A. fumigatus* was the best-performing genome and *T. gondii* the worst.
 
-Using the dataset size corresponding with the sample cut offs we get a lenient cut off [lenient](!Subsampling/lenient_rna_organism.tsv] and a strict [strict](!Subsampling/strict_rna_organism.tsv)
+![Subsampling results](Subsampling/fig1.png)
 
-
-122 
+Using the mean dataset count at the lenient (*A. fumigatus*) and strict (*T. gondii*) sample thresholds gives the organisms in VEuPathDB with sufficient RNA-seq data: [lenient](Subsampling/lenient_rna_organism.tsv) and [strict](Subsampling/strict_rna_organism.tsv).
 
