@@ -23,6 +23,16 @@ Results are in each organism's folder, e.g. [AF](AF):
 - Propagated GO terms: [propagated_GO](AF/asper_computed_propagated.tsv)
 
 Overall, neighbour-voting AUROC was very similar across methods, but ranked MR outperformed the others in complex recovery, and WGCNA performed poorly.
+| Organism | Strain | Samples | Ranked PCC GO AUROC | Ranked PCC AUPRC | Ranked MR GO AUROC | Ranked MR AUPRC | WGCNA GO AUROC | WGCNA AUPRC |
+|---|---|---|---|---|---|---|---|---|
+| *Aspergillus nidulans* | FGSC A4 | 22 | 0.683 | 0.311 | 0.692 | 0.345 | 0.682 | 0.360 |
+| *Candida auris* | B8441 | 42 | 0.703 | 0.577 | 0.708 | 0.656 | 0.690 | 0.340 |
+| *Plasmodium berghei* | ANKA | 69 | 0.706 | 0.561 | 0.710 | 0.615 | 0.718 | 0.506 |
+| *Aspergillus fumigatus* | Af293 | 85 | 0.753 | 0.778 | 0.766 | 0.794 | 0.728 | 0.379 |
+| *Anopheles gambiae* | PEST | 101 | 0.749 | 0.665 | 0.761 | 0.773 | 0.764 | 0.611 |
+| *Toxoplasma gondii* | ME49 | 122 | 0.708 | 0.513 | 0.717 | 0.543 | 0.716 | 0.365 |
+| *Plasmodium falciparum* | 3D7 | 285 | 0.708 | 0.700 | 0.720 | 0.736 | 0.719 | 0.651 |
+| **Mean (range)** | | | 0.716 (0.683–0.753) | 0.586 (0.311–0.778) | 0.725 (0.692–0.766) | 0.637 (0.345–0.794) | 0.717 (0.682–0.764) | 0.459 (0.340–0.651) |
 
 # Subsampling
 
