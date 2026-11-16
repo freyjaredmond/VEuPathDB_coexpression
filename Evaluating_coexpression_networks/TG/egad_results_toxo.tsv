@@ -1,0 +1,16 @@
+organism	network_type	metric	network	random
+toxo	pearson	Neighbour-voting AUROC	0.728244197179222	0.502124509849309
+toxo	pearson	Degree-null AUROC	0.586923188722311	0.496505972482919
+toxo	pearson	Multifunctionality AUROC	0.87501725376527	NA
+toxo	wgcna	Neighbour-voting AUROC	0.716194766647378	0.501016223383246
+toxo	wgcna	Degree-null AUROC	0.57005588029781	0.489359755626329
+toxo	wgcna	Multifunctionality AUROC	0.87501725376527	NA
+toxo	modules	Neighbour-voting AUROC	0.65809875344907	0.498729013040299
+toxo	modules	Degree-null AUROC	0.553434036786604	0.498855182400978
+toxo	modules	Multifunctionality AUROC	0.87501725376527	NA
+toxo	pearson_ranked	Neighbour-voting AUROC	0.708096053214092	0.499939653553261
+toxo	pearson_ranked	Degree-null AUROC	0.585668859287074	0.498129926481341
+toxo	pearson_ranked	Multifunctionality AUROC	0.87501725376527	NA
+toxo	mr_ranked	Neighbour-voting AUROC	0.717316330741931	0.498941278938252
+toxo	mr_ranked	Degree-null AUROC	0.585519779106305	0.499452895973047
+toxo	mr_ranked	Multifunctionality AUROC	0.87501725376527	NA
