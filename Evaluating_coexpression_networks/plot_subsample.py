@@ -1,15 +1,16 @@
 # Plot sample-size analysis
 # Plots neighbour-voting AUROC and complex AUPRC against number of samples for the
-# P. falciparum MR subsampling draws, comparing full draws with half-sample draws.
+# P. falciparum rank-standardised MR subsampling draws, comparing full draws with half-sample draws.
 # Dot size shows the number of datasets in each draw.
 #
 # Input:
-#   - subsample_results_plas_mr.tsv         
-#   - subsample_results_plasmo_half_mr.tsv  
+#   - subsample_results_plas__mrrank_full.tsv   results for the full draws
+#                                               (results_mrrank_full_plas/draw_*.tsv combined)
+#   - subsample_results_plas__mrrank_half.tsv   results for the half-sample draws
 #
 # Output:
-#   - plas_mr_nv_dot_half.png   neighbour-voting and degree-null AUROC vs number of samples
-#   - plas_mr_pr_dot_half.png   complex AUPRC vs number of samples
+#   - plas_mrrank_auroc.png   neighbour-voting and degree-null AUROC vs number of samples
+#   - plas_mrrank_auprc.png   complex AUPRC vs number of samples
 #
 # Packages: pandas, matplotlib
 
@@ -22,8 +23,8 @@ HALF = "#E69F00"         # orange: half samples
 NULL = "#CC79A7"         # reddish purple: degree null
 THRESHOLD = "#D55E00"    # vermillion: 0.7 threshold line (also dotted, so it doesn't rely on colour)
 
-plas_full = pd.read_csv("subsample_results_plas_mr.tsv", sep="\t")
-plas_half = pd.read_csv("subsample_results_plasmo_half_mr.tsv", sep="\t")
+plas_full = pd.read_csv("subsample_results_plas__mrrank_full.tsv", sep="\t")
+plas_half = pd.read_csv("subsample_results_plas__mrrank_half.tsv", sep="\t")
 
 
 ### neighbour-voting AUROC
@@ -51,7 +52,7 @@ ax.legend(handles, labels, title="Datasets", frameon=False,
           loc="upper left", bbox_to_anchor=(1.02, 1))
 
 # save before showing, otherwise some backends save a blank figure
-fig.savefig("plas_mr_nv_dot_half.png", dpi=300, bbox_inches="tight",
+fig.savefig("plas_mrrank_auroc.png", dpi=300, bbox_inches="tight",
             bbox_extra_artists=[colour_legend])
 plt.show()
 
@@ -78,6 +79,6 @@ handles, labels = sc.legend_elements(prop="sizes", num=[5, 10, 15, 20, 25],
 ax.legend(handles, labels, title="Datasets", frameon=False,
           loc="upper left", bbox_to_anchor=(1.02, 1))
 
-fig.savefig("plas_mr_pr_dot_half.png", dpi=300, bbox_inches="tight",
+fig.savefig("plas_mrrank_auprc.png", dpi=300, bbox_inches="tight",
             bbox_extra_artists=[colour_legend])
 plt.show()
