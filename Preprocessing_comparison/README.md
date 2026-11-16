@@ -1,6 +1,6 @@
 # Preprocessing comparisons
 
-An initial comparison was run on *A. fumigatus*, *A. gambiae* ,*P. falciparum* and *T.gondii* to select the best-performing preprocessing for Pearson's correlation coefficient (PCC) and WGCNA. See (Evaluating_coexpression_networks/Evaluating.R)(Evaluating.R)
+An initial comparison was run on *A. fumigatus*, *A. gambiae* ,*P. falciparum* and *T.gondii* to select the best-performing preprocessing for Pearson's correlation coefficient (PCC) and WGCNA. See (VEuPathDB/Evaluating_coexpression_networks/Evaluating.R)(Evaluating.R)
 
 Four preprocessing combinations were explored:
 - [P1](P1): batch correction and quantile normalisation
@@ -8,7 +8,7 @@ Four preprocessing combinations were explored:
 - [P3](P3): quantile normalisation only
 - [P4](P4): neither
 
-The metrics assessed are described in [Evaluating coexpression_networks](Evaluating_coexpression_networks).
+The metrics assessed are described in [VEuPathDB/Evaluating coexpression_networks](Evaluating_coexpression_networks).
 
 | Run | Organism | Method | Batch correction | Quantile normalisation | GO AUROC | Degree-null AUROC | Complex AUPRC |
 |---|---|---|---|---|---|---|---|
