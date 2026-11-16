@@ -12,8 +12,7 @@
 # Output:
 #   - cutoff_bins_all_genomes.tsv   for each genome and sample bin: number of networks, number at or
 #                                   below 0.7, mean samples, mean datasets, mean AUPRC, pass/fail
-#
-# Packages: pandas
+
 
 import pandas as pd
 
