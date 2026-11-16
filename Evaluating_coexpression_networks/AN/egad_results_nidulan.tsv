@@ -1,0 +1,16 @@
+organism	network_type	metric	network	random
+nidulan	pearson	Neighbour-voting AUROC	0.691294411757668	0.499085123191504
+nidulan	pearson	Degree-null AUROC	0.539152460846444	0.496611709933012
+nidulan	pearson	Multifunctionality AUROC	0.856789701174902	NA
+nidulan	wgcna	Neighbour-voting AUROC	0.682491297470915	0.498736585763035
+nidulan	wgcna	Degree-null AUROC	0.516968867092883	0.498501613982282
+nidulan	wgcna	Multifunctionality AUROC	0.856789701174902	NA
+nidulan	modules	Neighbour-voting AUROC	0.570792198025611	0.501387984670413
+nidulan	modules	Degree-null AUROC	0.491334635008139	0.498888612662473
+nidulan	modules	Multifunctionality AUROC	0.856789701174902	NA
+nidulan	pearson_ranked	Neighbour-voting AUROC	0.683131314287156	0.499071530684068
+nidulan	pearson_ranked	Degree-null AUROC	0.556291978053236	0.499710615811327
+nidulan	pearson_ranked	Multifunctionality AUROC	0.856789701174902	NA
+nidulan	mr_ranked	Neighbour-voting AUROC	0.692306994747642	0.499584064090763
+nidulan	mr_ranked	Degree-null AUROC	0.566655041202246	0.500090394357139
+nidulan	mr_ranked	Multifunctionality AUROC	0.856789701174902	NA
