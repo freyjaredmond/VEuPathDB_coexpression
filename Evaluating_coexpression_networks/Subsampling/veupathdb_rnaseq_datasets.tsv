@@ -1,0 +1,741 @@
+Organism	Dataset	Tags
+Acanthamoeba castellanii str. Neff	Transcriptome during encystment of A castellanii Neff (Bernard C. et al. 2022)	DEFCP
+Acanthamoeba castellanii str. Neff	Trophozoite transcriptome of A. castellani (Wojtkawska et al.)	P
+Aedes aegypti LVP_AGWG	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Aedes aegypti LVP_AGWG	Female antennae from six-time points (5 to 10 days) post-emergence, non-blood fed (nbf) and age-matched blood-fed (bf) cohorts (Hill et al 2021)	DEFCP
+Aedes aegypti LVP_AGWG	Female midgut 72-h bloodmeal digestion cycle for 11-time points (Tsujimoto and Adelman 2023)	DEFCP
+Aedes aegypti LVP_AGWG	Mosquito cell lines Aag2 and CCL-125 (Neafsey et al 2014, unpublished)	DEFCP
+Aedes aegypti LVP_AGWG	Larval exposure to four bacteria treatments: Carry-over effects in larvae, pupae, and adults (Giraud et al 2021)	DEFCPSA
+Aedes aegypti LVP_AGWG	Small RNA (sRNA): Mosquito saliva and salivary glands (SGs) following chikungunya virus (CHIKV) infection (Fiorillo et al 2022)	DEFCPSA
+Aedes aegypti LVP_AGWG	Transcriptomic atlas of sugar- or blood-fed adult female body parts and gut regions (Hixson et al 2022)	DEFCPSA
+Aedes aegypti LVP_AGWG	Germ-free vs colonized third instar mosquito larvae (Romoli et al 2021)	DEFCPSA
+Aedes aegypti LVP_AGWG	Spermathecae from virgin and mated females (Pascini et al 2020)	FCP
+Aedes aegypti LVP_AGWG	Response to blood (heated or normal), sugar, and complement proteins (hC3 or hC5a) (Giraldo-Calderón et al 2020)	DEFCPSA
+Aedes aegypti LVP_AGWG	Effect of ibuprofen on adults and larvae (Prud'homme et al 2018)	DEFCPSA
+Aedes aegypti LVP_AGWG	Chetumal and Rex-D strains under blood- or sugar- fed conditions (Bonizzoni et al 2012)	DEFCP
+Aedes aegypti LVP_AGWG	Developmental stages, ovaries and carcass (Tu et al 2012, unpublished)	DEFCP
+Aedes aegypti LVP_AGWG	Developmental stages, reproductive organs and other tissues (Matthews et al 2018)	DEFCP
+Aedes aegypti LVP_AGWG	Response to Cry11Aa from Bti timecourse (Canton et al 2015)	DEFCP
+Aedes aegypti LVP_AGWG	Lab progeny sensitive and resistant to Brugia malayi (Juneja et al 2015)	DEFCP
+Aedes aegypti LVP_AGWG	Filarial worm-mosquito interactions (Choi et al 2014)	DEFCP
+Aedes aegypti LVP_AGWG	Zika and Dengue infection (Angleró-Rodríguez et al 2017)	DEFCPSA
+Aedes aegypti LVP_AGWG	Midgut of mosquitoes fed with saline or protein meals containing chikungunya virus (Dong et al 2017)	DEFCPSA
+Aedes aegypti LVP_AGWG	Dengue 1 and 3 differential infection (Raquin et al 2017)	DEFCP
+Aedes aegypti LVP_AGWG	Male and female first instar larvae (Neira-Oviedo et al 2011)	DEFCP
+Aedes aegypti LVP_AGWG	The effect of permethrin resistance following ingestion of Zika virus infected blood (Zhao et al 2018)	DEFCP
+Aedes aegypti LVP_AGWG	Mating-induced changes in the reproductive tract of the females (Alfonso-Parra et al 2016)	DEFCP
+Aedes aegypti LVP_AGWG	Environmental stress on response to dengue virus (Kang et al 2018)	DEFCP
+Aedes aegypti LVP_AGWG	Midgut transcriptomes of blood fed DENV2 NS1 vs. those blood fed BSA (Liu et al 2016)	DEFCP
+Aedes aegypti LVP_AGWG	Developmental Transcriptome (Akbari et al 2013)	DEFCP
+Aedes aegypti LVP_AGWG	Male and female carcass (Jiang et al 2015)	DEFCPSA
+Aedes aegypti LVP_AGWG	Response to dengue virus infection (DBCLS 2015, unpublished)	DEFCP
+Aedes aegypti LVP_AGWG	Response to Zika virus infection (Etebari et al 2019)	DEFCP
+Aedes aegypti LVP_AGWG	Larvae resistance to three insecticides, permethrin, imidacloprid and propoxur (David et al 2014)	DEFCP
+Aedes aegypti LVP_AGWG	Blood and sugar fed (Bonizzoni et al 2011)	DEFCP
+Aedes aegypti LVP_AGWG	Salivary glands from male and female adults (Ribeiro et al 2016)	P
+Aedes aegypti LVP_AGWG	Forest (guinea pig-preferring) vs Domestic (human-preferring) antenna (McBride et al 2014)	DEFCP
+Aedes aegypti LVP_AGWG	Malpighian tubule transcriptomes from larval and adult stages (Li et al 2017)	DEFCP
+Aedes aegypti LVP_AGWG	Metabolic resistance to pyrethroid insecticides (Faucon et al 2017)	DEFCPSA
+Aedes aegypti LVP_AGWG	Post-transcriptional microRNA modifications following dengue infection (Etebari et al 2015)	DEFCPSA
+Aedes aegypti LVP_AGWG	Various tissues of males and females (brain and peripheral sensory organs) and females at three points in their gonotrophic cycle (Matthews et al 2016)	DEFCP
+Aedes aegypti LVP_AGWG	Female midguts: AaMesh knock-down and feed AaMesh antibodies, controls with knock-down GFP and feed pre-immune antiserum (Xiao et al 2017)	DEFCP
+Aedes aegypti LVP_AGWG	Dengue 1 infection (Raquin et al 2017)	DEFCP
+Aedes aegypti LVP_AGWG	Aag2 cells infected with blue tongue or Schmallenberg virus (Schnettler et al 2013)	DEFCPSA
+Aedes aegypti LVP_AGWG	Antennal transcriptome by age and sex (Tallon et al 2019)	DEFCP
+Aedes aegypti LVP_AGWG	Embryonic timecourse (Biedler et al 2012)	DEFCPSA
+Aedes albopictus Foshan FPA	Mosquito cell lines C6/36, C7/10 and u4.4 (Neafsey et al 2014, unpublished)	DEFCP
+Aedes albopictus Foshan FPA	Infection with Chikungunya virus (Vedururu et al 2019)	DEFCPSA
+Aedes albopictus Foshan FPA	Oocyte transcriptome under diapause and non-diapause conditions (Poelchau et al 2011)	FCP
+Aedes albopictus Foshan FPA	Eggs reared under diapause-inducing and non-diapause conditions (Poelchau et al 2013)	DEFCP
+Aedes albopictus Foshan FPA	Malpighian tubules blood-fed vs non-blood-fed (Esquivel et al 2014)	DEFCP
+Aedes albopictus Foshan FPA	Midgut (Liu et al 2014, unpublished)	P
+Aedes albopictus Foshan FPA	Eggs, larvae, pupae, male, and female adults (BGI 2015, unpublished)	DEFCP
+Aedes albopictus Foshan FPA	Sequencing voltage-sensitive sodium channel cDNA (Kasai et al 2019)	DEFCP
+Aedes albopictus Foshan FPA	Sequence reads (Zheng et al 2018, unpublished)	FCP
+Aedes albopictus Foshan FPA	wMelPop strain of Wolbachia and dengue infection of C6/36 cells (Teramoto et al 2019)	DEFCP
+Aedes albopictus Foshan FPA	Deltamethrin resistant and susceptible mosquitoes (Xu et al 2018, unpublished)	DEFCP
+Aedes albopictus Foshan FPA	C6/36 mosquito cell line infected with two Zika virus strains (PRVABC59 and MR 766) with two sample times (24 and 48 hours) (Miller et al 2018)	DEFCP
+Aedes albopictus Foshan FPA	Strains exposed to Temephos (Lagnel et al 2015, unpublished)	DEFCP
+Aedes albopictus Foshan FPA	Sensorial organs (Lombardo et al 2017)	DEFCP
+Aedes albopictus Foshan FPA	Diapause- or non-diapause-inducing conditions, with or without a blood meal (Huang et al 2015)	DEFCP
+Aedes albopictus Foshan FPA	Vero E6 cells and C6/36 cells infected with ZIKV strain Pe243 (ZIKV-PE243) and harvested at 24h post infection (Univ of Cambridge 2018, unpublished)	DEFCPSA
+Aedes albopictus Foshan FPA	Male tanscriptome at various lifestages (Hall et al 2015)	DEFCP
+Aedes albopictus Foshan FPA	The miRNAs profile in C6/36 cells persistently infected with Dengue virus serotype 2 (Avila-Bonilla et al 2017)	DEFCPSA
+Aedes albopictus Foshan FPA	miRNAs expression after Dengue virus infection (Liu et al 2015)	FCP
+Aedes albopictus Foshan FPA	Male v female reproductive organs (Boes et al 2014)	FCP
+Aedes albopictus Foshan FPA	Male vs female transcriptome utilizing a ribosome depletion method (Fauver et al 2019)	FCP
+Aedes albopictus Foshan FPA	Dengue-infected mosquitoes midguts and carcass (Tsujimoto et al 2017)	DEFCP
+Aedes albopictus Foshan FPA	Malpighian tubules transcriptome, blood vs sugar fed (Esquivel et al 2016)	DEFCP
+Aedes albopictus Foshan FPA	Quiescent and diapausing mosquitoes (Poelchau et al 2013)	DEFCP
+Aedes albopictus Foshan FPA2023	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Aedes albopictus Foshan FPA2023	adult female and male bodies (without heads), pupae, larvae (L3-L4), and eggs (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Anopheles albimanus STECLA 2020	Pyrethroid insecticide exposure (deltamethrin or alpha-cypermethrin) in field mosquitoes from Guatemala and Peru, and a susceptible laboratory colony from Guatemala (Mackenzie-Impoinvil et al 2019)	DEFCPSA
+Anopheles albimanus STECLA 2020	Adult female (Martínez-Barnetche et al 2012)	P
+Anopheles albimanus STECLA 2020	Male and female sex-tissues vs carcass (Papa et al 2017)	DEFCP
+Anopheles albimanus STECLA 2020	Generic RNAseq (part of a study with +8 mosquito species) (Hittinger et al 2010)	FCP
+Anopheles albimanus STECLA 2020	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	P
+Anopheles arabiensis DONGOLA 2021	Organophosphate and pyrethroid insecticide resistance (Messenger et al 2021)	DEFCPSA
+Anopheles arabiensis DONGOLA 2021	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	P
+Anopheles arabiensis DONGOLA 2021	Generic RNAseq (part of a study with +8 mosquito species) (Hittinger et al 2010)	FCP
+Anopheles arabiensis DONGOLA 2021	RNA-Seq from male and female Anopheles coluzzii, Anopheles arabiensis, Anopheles quadriannulatus, and their hybrids. (Deitz et al.)	DEFCPSA
+Anopheles arabiensis DONGOLA 2021	Evolution of sex-biased gene expression aaraDongola (Papa et al 2017)	DEFCP
+Anopheles arabiensis DONGOLA 2021	A. arabiensis RNA seq Raw sequence reads ()	DEFCP
+Anopheles arabiensis DONGOLA 2021	Evolution of gene expression levels in Anopheles male reproductive organs aaraDongola (Izquierdo et al 2019)	DEFCP
+Anopheles coluzzii AcolN3	Virgin male testes and carcass (body without testes) (Cassone et al 2017)	DEFCPSA
+Anopheles coluzzii AcolN3	Gastric Caeca and Malpighian tubules (Moroz et al 2010, unpublished)	FCPSA
+Anopheles coluzzii AcolN3	Euryhaline vs stenohaline: larvae response to increasing salinity stress (Uyhelji et al 2016)	DEFCP
+Anopheles coluzzii AcolN3	Blood feeding cycle with and without antibiotics (Rodgers et al 2017)	DEFCP
+Anopheles coluzzii AcolN3	Antennae and maxillary palps (Athrey et al 2017)	DEFCP
+Anopheles coluzzii AcolN3	Euryhaline vs stenohaline: Fresh vs Salt water (Uyhelji et al 2016)	DEFCP
+Anopheles coluzzii AcolN3	Genetic variation associated with increased insecticide resistance (Main et al 2018)	DEFCPSA
+Anopheles coluzzii AcolN3	Male reproductive organs (Izquierdo et al 2019)	DEFCP
+Anopheles coluzzii AcolN3	Male mosquito contribution towards malaria transmission: mating influences the Anopheles female midgut transcriptome and susceptibility to human malaria parasites (Dahalan et al 2019)	DEFCPSA
+Anopheles culicifacies A-37	Brain dissected at three time points with different types of meals (Das De et al 2020, unpublished)	FCP
+Anopheles culicifacies A-37	Transcriptome of olfactory tissues (antennae, maxillary palp, proboscis and labium), dissected at three time points with different types of meals (Das De et al 2018)	FCP
+Anopheles culicifacies A-37	Midgut transcriptome (Thomas et al 2016)	P
+Anopheles darlingi AdarGF1	Sialotranscriptome of Amazonian anophelines of the Nyssorhynchus subgenus (Scarpassa et al 2019)	FCPSA
+Anopheles funestus AfunGA1	Colony and field mosquitoes exposed to permethrin (Weedall et al 2019)	DEFCPSA
+Anopheles funestus AfunGA1	De novo transcriptome sequencing using Illumina RNA-Seq technology (Crawford et al 2010)	FCP
+Anopheles funestus AfunGA1	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	P
+Anopheles funestus AfunGA1	Pyrethroid resistant vs susceptible (Gregory et al 2011)	FCPSA
+Anopheles funestus AfunGA1	Anopheles funestus FANG colony (Weedall et al 2015)	DEFCPSA
+Anopheles gambiae Ifakara	Different gut regions in sugar-fed adult females (Hixson et al 2022)	DEFCPSA
+Anopheles gambiae Ifakara	Male reproductive organs (Izquierdo et al 2019)	DEFCP
+Anopheles gambiae Ifakara	HMBPP-supplemented blood meal (Emami et al 2017)	DEFCP
+Anopheles gambiae Ifakara	Mosquito gene expression after ivermectin ingestion (Seaman et al 2015)	DEFCPSA
+Anopheles gambiae PEST	Mosquito cell line MOS55 (Neafsey et al 2014, unpublished)	DEFCP
+Anopheles gambiae PEST	Mosquito cell line Sua5B (Neafsey et al 2014, unpublished)	DEFCP
+Anopheles gambiae PEST	Different gut regions in sugar-fed adult females (Hixson et al 2022)	DEFCPSA
+Anopheles gambiae PEST	Mosquito midguts (MGs) and salivary glands (SGs) infected with P. falciparum (Ruiz et al 2021)	DEFCPSA
+Anopheles gambiae PEST	Female antennal transcriptome (Rinker et al 2013)	P
+Anopheles gambiae PEST	Small non-coding RNAs by tissue (Bryant et al 2020)	DEFCPSA
+Anopheles gambiae PEST	Male reproductive organs (Izquierdo et al 2019)	DEFCP
+Anopheles gambiae PEST	Male and female sex-tissues vs carcass in adults and larvae (Papa et al 2017)	DEFCP
+Anopheles gambiae PEST	Midgut and salivary glands transcription (Gómez-Díaz et al 2014)	FCPSA
+Anopheles gambiae PEST	Mosquito gene expression after ivermectin ingestion (Seaman et al 2015)	DEFCPSA
+Anopheles gambiae PEST	Effect of bloodmeal on mosquito whole body transcriptome (Vannini et al 2014)	DEFCP
+Anopheles gambiae PEST	Midgut transcriptomes of Plasmodium falciparum-infected and non-infected mosquitoes (Mead et al 2012)	DEFCP
+Anopheles gambiae PEST	Chemosensory appendages, male and female (Pitts et al 2011)	DEFCP
+Anopheles gambiae PEST	Antennal expression following a blood meal (Rinker et al 2013)	DEFCP
+Anopheles gambiae PEST	Antennae vs maxillary palps (Hodges et al 2014)	DEFCP
+Anopheles gambiae PEST	Testes transcriptome unmated vs mated (Pitts et al 2014)	FCP
+Anopheles gambiae PEST	Deltamethrin resistant and susceptible mosquitoes (Bonizzoni et al 2012)	FCP
+Anopheles gambiae PEST	HMBPP-supplemented blood meal (Emami et al 2017)	DEFCP
+Anopheles merus MAF 2021	Male reproductive organs (Izquierdo et al 2019)	DEFCP
+Anopheles merus MAF 2021	Euryhaline vs stenohaline: larvae response to increasing salinity stress (Uyhelji et al 2016)	DEFCP
+Anopheles merus MAF 2021	Euryhaline vs stenohaline: Fresh vs Salt water (Uyhelji et al 2016)	DEFCP
+Anopheles merus MAF 2021	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	FCPSA
+Anopheles merus MAF 2021	Virgin male testes and carcass (body without testes) (Cassone et al 2017)	DEFCPSA
+Anopheles minimus MINIMUS1	Male and female sex-tissues vs carcass (Papa et al 2017)	DEFCP
+Anopheles quadriannulatus SANGWE	Female antenna (Rinker et al 2013)	P
+Anopheles quadriannulatus SANGWE	Male reproductive organs (Izquierdo et al 2019)	DEFCP
+Anopheles quadriannulatus SANGWE	Antennae vs maxillary palps (Hodges et al 2014)	DEFCP
+Anopheles quadriannulatus SANGWE	Antennal transcriptome (Rinker et al 2013)	P
+Anopheles quadriannulatus SANGWE	Antennae and maxillary palps (Athrey et al 2017)	DEFCP
+Anopheles sinensis China	Pooled male and female 30 days old (Wang Hua 2015, unpublished)	P
+Anopheles sinensis China	Whole body from a 2 - 3 day old female mosquito (Feng et al 2018)	P
+Anopheles sinensis China	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	P
+Anopheles sinensis China	Sialotranscriptome: Female adult fed 10% glucose for salivary gland dissection (Fang et al 2018)	P
+Anopheles sinensis China	Antenna transcriptome pre- and post- blood meal (Chen et al 2017)	DEFCP
+Anopheles sinensis China	Pooled eggs, larvae, pupae, male and female adults (Chen et al 2014)	P
+Anopheles sinensis China	Male and female adults from a resistant strain (Yadan Luo 2016, unpublished)	FCP
+Anopheles sinensis SINENSIS	Antenna transcriptome pre- and post- blood meal (Chen et al 2017)	DEFCPSA
+Anopheles stephensi Indian	RNA-Seq of Anopheles stephensi across temperature regimes and post-blood meal time-course (Pathak et al., 2025)	DEFCPSA
+Anopheles stephensi UCISS2018	Infection with drug-resistant and drug-susceptible Plasmodium yoelii (Zhang et al. 2017)	DEFCP
+Anopheles stephensi UCISS2018	Gene trapping (Reid et al 2018)	P
+Anopheles stephensi UCISS2018	Male versus female (Jiang et al 2015)	DEFCPSA
+Anopheles stephensi UCISS2018	Hemocyte expression (Thomas et al 2016)	P
+Anopheles stephensi UCISS2018	Adult female midgut, Malpighian tubules, fat body, and ovary (Sreenivasamurthy et al 2017)	DEFCP
+Anopheles stephensi UCISS2018	Pooled male and female larvae, pupae, and adults (Neafsey et al 2015)	FCPSA
+Anopheles stephensi UCISS2018	Developmental time course, reproductive tissue, and blood feeding (Jiang et al 2014)	DEFCP
+Anopheles stephensi UCISS2018	Generic RNAseq (part of a study with +8 mosquito species) (Hittinger et al 2010)	FCP
+Anopheles stephensi UCISS2018	Anopheles stephensi transcriptome project (University of Tokyo, 2008)	DEFCP
+Anopheles stephensi UCISS2018	Salivary glands during Plasmodium berghei infection (Institute of Hygiene and Tropical Medicine 2016, unpublished)	DEFCP
+Anopheles stephensi UCISS2018	miRNome: Blood feeding and Plasmodium vinckei petteri 279 BY infection (Jain et al 2014)	DEFCPSA
+Anopheles stephensi UCISS2018	MSQ43 cell line RNA-Seq ()	FCP
+Aspergillus fumigatus A1163	Transcriptomics analysis of Aspergillus fumigatus co-cultivated with Pseudomonas aeruginosa (Valiante 2018)	DEFCP
+Aspergillus fumigatus Af293	Transcriptomic changes during spore germination (Kim et al. 2025)	DEFCPSA
+Aspergillus fumigatus Af293	Transcriptomics of Aspergillus fumigatus upon exposure to human airway epithelial cells (Watkins et al. 2018)	DEFCP
+Aspergillus fumigatus Af293	Sensitivity of transcription factor mutants of Aspergillus fumigatus to Congo Red (Liu et al. 2021)	DEFCP
+Aspergillus fumigatus Af293	Transcriptome analysis of conidium germination of Aspergillus fumigatus in different growth conditions (Danion et al. 2021)	DEFCPSA
+Aspergillus fumigatus Af293	Determining Aspergillus fumigatus transcription factor expression and function during invasion of the mammalian lung (Liu et al. 2021)	DEFCP
+Aspergillus fumigatus Af293	Gene expression in WT, hrmA deletion, hrmA OE, hrmA_REV, EVOL under hypoxia and normoxia conditions (Kowalski et al. 2019)	DEFCPSA
+Aspergillus fumigatus Af293	Response to caspofungin (Valero et al. 2020)	DEFCPSA
+Aspergillus fumigatus Af293	Mycelial gene expression in response to treatment with 5,8-diHODE (Niu et al. 2020)	DEFCP
+Aspergillus fumigatus Af293	Comparative transcriptomics of dormant and germinating conidia (Hagiwara et al. 2016)	DEFCP
+Aspergillus fumigatus Af293	Gene expression under oxidative and iron stresses (Kurucz et al. 2018)	DEFCP
+Aspergillus fumigatus Af293	Transcriptomes of itraconazole-resistant strains (Bowyer 2016)	DEFCP
+Aspergillus fumigatus Af293	Transcriptome of wild-type vs veA and mtfA deletion mutants (Lind et al. 2015)	DEFCPSA
+Aspergillus fumigatus Af293	Adaptation to oxygen limitation (Hillmann et al. 2014)	DEFCP
+Aspergillus fumigatus Af293	Transcriptome under normoxia and hypoxia conditions (Losada et al. 2014)	DEFCP
+Aspergillus fumigatus Af293	Transcriptomes of WT, nctA, and nctB mutants in response to itraconazole. (Furukawa et al. 2020)	DEFCP
+Aspergillus nidulans FGSC A4	Transcriptomic changes during spore germination for Aspergillus nidulans FGSC A4 (Kim et al. 2025)	DEFCPSA
+Aspergillus nidulans FGSC A4	Gene expression in Aspergillus nidulans grown on multiple nitrogen sources (Steyer et al. 2021)	DEFCPSA
+Aspergillus nidulans FGSC A4	Transcriptomics of fungal condinia and hyphae (Wang et al. 2021)	DEFCPSA
+Aspergillus nidulans FGSC A4	Whole genome transcriptome analysis directed to the global identification of promoters (Sibthorp et al. 2013)	DEFCPSA
+Aspergillus nidulans FGSC A4	Transcriptomes of wild-type vs veA and mtfA deletion mutants (Lind et al. 2015)	DEFCPSA
+Aspergillus nidulans FGSC A4	Transcriptional profiles induced by exposure to crystalline cellulose (Coradetti et al. 2013)	DEFCP
+Aspergillus niger CBS 513.88	Comparative transcriptomics of dormant and germinating conidia (Hagiwara et al. 2016)	FCP
+Aspergillus niger CBS 513.88	Transcriptomic response to lignocellulose (willow) (Pullan et al. 2012)	DEFCPSA
+Aspergillus niger CBS 513.88	Aspergillus niger gene co-expression network (Vera Meyer)	C
+Aspergillus niger CBS 513.88	Transcriptomic response to lignocellulose (wheat straw) (Pullan et al. 2014)	DEFCPSA
+Aspergillus oryzae RIB40	Comparative transcriptomics of dormant and germinating conidia (Hagiwara et al. 2016)	FCP
+Babesia bigemina strain BOND	Calf blood stage vs tick kinete stage transcriptome of B. bigemina (Capelli-Peixoto et al. 2022)	DEFCPSA
+Babesia bovis T2Bo	Transcriptome during development (Ueti et al.)	DEFCPSA
+Babesia divergens strain 1802A	Synchronous intraerythrocytic stage time course transcriptome (Elsworth et al.)	DEFCP
+Babesia duncani strain WA1 2023	Babesia duncani strain WA1 2023 transcriptome (Singh et al 2023)	P
+Babesia gibsoni Azabu	Asexual stages transcriptome (Guo et al. 2022)	P
+Babesia sp. Xinjiang Xinjiang	Merozoite transcriptome (Guan et al.)	P
+Batrachochytrium salamandrivorans BS	RNA-seq data from B. salamandrivorans zoospores treated with different carbohydrate sources (Wang et al. 2021)	DEFCP
+Besnoitia besnoiti strain Bb-Ger1	Early infection of Besnoitia besnoiti tachyzoites in Bovine monocyte-derived macrophages (Fernandez-Alvarez et al 2023)	DEFCPSA
+Besnoitia besnoiti strain Bb-Ger1	Tachyzoite and tissue cyst transcriptomes (Ramakrishnan et al.)	FCPSA
+Biomphalaria glabrata BB02	Response to S. mansoni infection in resistance-selected snails (Tennessen et al 2015)	DEFCP
+Biomphalaria glabrata XG47	Embryonic and larval stages mixed (Kenny et al 2016)	P
+Biomphalaria glabrata XG47	Long-term Schistosoma mansoni infection (Adema et al 2011, unpublished)	FCP
+Biomphalaria glabrata XG47	Adult tentacles (Di Liang 2015, unpublished)	P
+Biomphalaria glabrata XG47	Twelve (12) different tissues/organs from adults (Adema et al 2017)	DEFCP
+Biomphalaria glabrata XG47	Controls (unstranded RNASeq): Response to S. mansoni infection in resistance-selected snails (Tennessen et al 2015)	DEFCP
+Biomphalaria glabrata XG47	Treatments (stranded RNASeq): Response to S. mansoni infection in resistance-selected snails (Tennessen et al 2015)	DEFCPSA
+Biomphalaria glabrata XG47	Inbred lines homozygous for three PTC2 alleles (R, S1, and S2) impacting susceptibility (S) and resistance (R) to S. mansoni PR-1 (Tennessen et al 2020)	FCPSA
+Bipolaris maydis C4	Transcriptomic response of wild-type and ChAP1 deletion mutant Cochliobolus heterostrophus to ferulic acid treatment (Simaan et al., 2020)	DEFCP
+Blastomyces dermatitidis ATCC 26199	Transcriptomic analysis of Blastomyces dermatitidis yeast and mould phases (Muñoz et al. 2015)	DEFCPSA
+Blumeria graminis f. sp. tritici 96224	Transcriptional profiling of B. gramminis on Lr34 resistance and susceptible barley plants (Sucher et al. 2018)	DEFCPSA
+Blumeria hordei strain RACE1	Transcriptomes analysis of Blumeria hordei during growth on Lr34 resistance and susceptible barley plants (Sucher et al. 2018)	DEFCP
+Bos taurus breed Hereford	Early infection of Bovine monocyte-derived macrophages with Besnoitia besnoiti tachyzoites (Fernandez-Alvarez et al 2023)	DEFCPSA
+Bos taurus breed Hereford	Transcriptome of Bos taurus during infection with virulent and avirulent N. caninum strains (Horcajo et al.)	DEFCPSA
+Bos taurus breed Hereford	Host cell transcriptome in bovine cells infected with Cryptosporidium parvum (Widmer et al.)	DEFCPSA
+Botrytis cinerea B05.10	Transcriptome profiling data of Botrytis cinerea infection on whole tomato plant (Srivastava et al. 2020)	DEFCP
+Botrytis cinerea B05.10	RNA-seq of Botrytis cinerea isolates from Spain and Italy (Centre for Plant Biotechnology and Genomics UPM-INIA, 2020)	DEFCPSA
+Botrytis cinerea B05.10	Transciptomic analysis of B. cinerea exposed to a bacterial biocontrol agent (secretome) (Samaras et al. 2021)	DEFCPSA
+Candida albicans SC5314	Effects of pH on the transcriptional profile of adenylate cyclase (cyr1) mutants (Hollomon et al. 2016)	DEFCPSA
+Candida albicans SC5314	RNA-Seq analysis of Candida albicans YSF3 function under temperature stress conditions (Fu et al., 2025)	DEFCPSA
+Candida albicans SC5314	RNA-seq of C. ablicans from cecum of monocolonized WT and Rag1-/- mice (Ost et al. 2021)	DEFCPSA
+Candida albicans SC5314	Transcriptome dynamics in Candida and human cell culture during infection (Liu et al. 2015)	DEFCP
+Candida albicans SC5314	Investigation of mdivi-1-driven metabolic reprogramming and levels of endogenous nitric oxide (NO) on gene expression (Koch et al. 2018)	DEFCPSA
+Candida albicans SC5314	A study of MBF1 and GCN4 roles on C. albicans gene expression both in vitro and during infection (Amorim-Vaz et al. 2021)	DEFCPSA
+Candida albicans SC5314	Candida transcriptomes during oropharyngeal candidiasis infection in mouse (Kirchner, et al. 2019)	DEFCPSA
+Candida albicans SC5314	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Candida albicans SC5314	Global transcriptional response to various environmental stresses, alone and in combinations (Brown et al. 2015)	DEFCP
+Candida albicans SC5314	Global translational landscape of the Candida albicans morphological transition (Mundodi et al. 2020)	DEFCPSA
+Candida albicans SC5314	Genome-wide transcriptional analysis of tomatidine-treated C. albicans cells (Dorsaz et al. 2017)	DEFCPSA
+Candida albicans SC5314	Transcriptomes of clinical isolate strains and mutant derivatives (Huang et al., 2019)	DEFCPSA
+Candida albicans SC5314	Transcriptomic analysis of wild type and GCN5-deficient Candida albicans cells prior to and after treatment with caspofungin (Shivarathri et al. 2019)	DEFCPSA
+Candida albicans SC5314	Fresh human whole blood infected with Candida albicans (Sieber et al. 2018)	DEFCP
+Candida albicans SC5314	Transcriptional analysis of sorted subpopulations of macrophages infected with C. albicans (Munoz et al. 2019)	DEFCP
+Candida albicans SC5314	Deep RNA-Seq under diverse growth conditions (Bruno et al. 2010)	DEFCP
+Candida albicans SC5314	Analysis of the transcriptomes a Candida Drug Resistance strain and its isogenic drug sensitive counterpart. (Dhamgaye et al. 2012)	DEFCP
+Candida albicans SC5314	Role of Histone Deacetylation in Transcription Regulation (Hnisz et al. 2012)	DEFCP
+Candida albicans SC5314	Regulatory role of glycerol in biofilm formation (Desai et al. 2013)	DEFCP
+Candida albicans SC5314	CalCEN: Candida albicans co-expression Network v1.0.0 (Teresa O'Meara)	C
+Candida auris strain B8441	Transcriptomic analysis of Candida auris clinical isolates (Jenull et al. 2022)	DEFCP
+Candida auris strain B8441	Transcriptional profiling of Candida auris B8441 grown on different carbon and nitrogen sources (Brandt et al. 2023)	DEFCPSA
+Candida auris strain B8441	Fresh whole blood infected with Candida auris (Allert et al. 2022)	DEFCPSA
+Candida auris strain B8441	Transcriptomic analysis of different Candida auris clinical isolates (Jenull et al. 2021)	DEFCP
+Candida auris strain B8441	Experimental evolution of fluconazole resistance in Candida auris (Bing et al. 2020)	DEFCP
+Candida auris strain B8441	Transcriptome profiling of Candida auris clinical isolates forming biofilm (Kean et al. 2018)	DEFCPSA
+Candida dubliniensis CD36	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Candida parapsilosis CDC317	Transcription profiles of three clinical isolates (Bliss et al. 2021)	DEFCP
+Candida parapsilosis CDC317	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Candida parapsilosis CDC317	Comparative transcriptome of Candida parapsilosis wild type and transcription factor mutants (Holland et al. 2014)	DEFCPSA
+Candida parapsilosis CDC317	Fresh whole blood infected with Candida parapsilosis (Sieber et al. 2018)	DEFCP
+Candida tropicalis MYA-3404	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Candida tropicalis MYA-3404	Fresh whole blood infected with Candida tropicalis (Sieber et al. 2018)	DEFCP
+Candida tropicalis MYA-3404	Total RNA profiles of cells grown in glucose or GlcNAc medium (Zhang et al. 2016)	FCP
+Canis lupus familiaris isolate SID07034	Babesia infection in dog (Smith et al. 2021)	DEFCPSA
+Cavia porcellus 2N	mRNA-based anti-tick (I. scapularis) vaccine (Sajid et al 2021)	DEFCPSA
+Chromera velia CCMP2878	Transcriptome in normal culture conditions (Woo et al.)	P
+Cimex lectularius Harlan	Pyrethroid-resistant vs -susceptible bed bugs (Adelman et al 2011)	DEFCP
+Cimex lectularius Harlan	Insecticide resistant vs susceptible (Mamidala et al 2012)	DEFCP
+Clavispora lusitaniae ATCC 42720	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Clavispora lusitaniae ATCC 42720	Transcriptional profiling of strains with different levels of Mrr1 activity in Candida lusitaniae (Demers et al. 2021)	DEFCPSA
+Clavispora lusitaniae ATCC 42720	Expression profiles of fluconazole resistant and fluconazole sensitive clinical isolates. (Demers et al. 2018)	DEFCPSA
+Coccidioides immitis RS	Transcriptional analysis of Coccidioides immitis mycelia and spherules (Carlin et al. 2021)	DEFCPSA
+Coccidioides immitis RS	Saprobic vs Parasitic Growth (Whiston et al. 2012)	DEFCP
+Coccidioides posadasii C735 delta SOWgp	Transcriptomics of environmental (mycelia) and parasitic (spherule 96 hr) stages of the Δcts2/Δard1/Δcts3 strain. (Mead et al. 2020)	DEFCPSA
+Coccidioides posadasii C735 delta SOWgp	Saprobic vs Parasitic Growth (Whiston et al. 2012)	DEFCP
+Coccidioides posadasii str. Silveira	RNA-Seq of the WT and the transcription factor mutant ryp1 cposSilveira (Mandel et al. 2022)	DEFCPSA
+Coccidioides posadasii str. Silveira	Transcriptome profiling of Coccidioides posadasii WT and CPS1 deletion mutant (Narra et al. 2016)	DEFCP
+Coccidioides posadasii strain Silveira 2022	RNA-Seq of the WT and the transcription factor mutant ryp1 (Mandel et al. 2022)	DEFCPSA
+Coccidioides posadasii strain Silveira 2022	Transcriptome profiling of Coccidioides posadasii WT and CPS1 deletion mutant (Narra et al. 2016)	DEFCP
+Coprinopsis cinerea okayama7#130	RNA-Seq analyses of fruiting body development (Krizsan et al. 2019)	DEFCP
+Coprinopsis cinerea okayama7#130	Hyphal Growth Time Series (Jason Stajich)	FCP
+Cordyceps militaris ATCC 34164	RNA-Seq data of Cordyceps militaris cultivated on the germinated soybeans (Yoo et al. 2022)	DEFCPSA
+Crithidia fasciculata strain Cf-Cl	Swimming vs adherent cultured cell transcriptomes (Filosa et al. 2019)	DEFCPSA
+Cryptococcus deneoformans JEC21	Stranded mRNA-Seq for delineation of transcript ends in C. neoformans JEC21 (Wallace et al. 2020)	DEFCPSA
+Cryptococcus deneoformans JEC21	Mapping 3-prime ends of coding genes with QuantSeq 3-prime mRNA-Seq (PAS-Seq) (Wallace et al. 2020)	DEFCPSA
+Cryptococcus deneoformans JEC21	Mapping TSS with TSS-Seq (Wallace et al. 2020)	DEFCPSA
+Cryptococcus deneoformans JEC21	Cryptococcus transcriptomes in hypoxia and normoxia conditions (Hommel et al. 2019)	DEFCPSA
+Cryptococcus deneoformans JEC21	Time course transcriptomics during unisexual development of Cryptococcus (Liu et al. 2018)	DEFCPSA
+Cryptococcus deneoformans JEC21	Cryptococcus neoformans sexual reproduction is controlled by a quorum sensing peptide (Tian et al. 2018)	DEFCP
+Cryptococcus deneoformans JEC21	RNA-Seq of WT and cqs1delta strains during sexual development stage (Tian et al. 2018)	DEFCPSA
+Cryptococcus depauperatus CBS 7841	RNA-seq data of strains CBS7841 and CBS7855 grown under different sporulation conditions (Passer et al. 2022)	DEFCPSA
+Cryptococcus neoformans H99	The transcription factor Pdr802 regulates Titan cell production and Cryptococcus neoformans pathogenicity (RNA-Seq) (Reuwsaat et al., 2021)	DEFCP
+Cryptococcus neoformans H99	Examination of the Calcineurin-Crz1 stress response network (Chow et al. 2017)	DEFCP
+Cryptococcus neoformans H99	The Cryptococcal central nervous system transcriptome during human disease (Yu et al. 2021)	DEFCPSA
+Cryptococcus neoformans H99	Transcriptomic profiling of the Cryptococcus neoformans transition to titan-like cells (Trevijano-Contador et al. 2018)	DEFCPSA
+Cryptococcus neoformans H99	RNA-Seq to compare multiple Cryptococcus neoformans genotypes (Homer et al. 2016)	DEFCPSA
+Cryptococcus neoformans H99	Gene expression variation in response to biologically relevant stresses (Yu et al. 2020)	DEFCPSA
+Cryptococcus neoformans H99	Transcriptional landscape of Cryptococcus-host response (Li et al. 2019)	DEFCPSA
+Cryptococcus neoformans H99	Transcriptome and translatome changes in response to host temperature stress (Bloom et al. 2019)	DEFCP
+Cryptococcus neoformans H99	Transcriptomic profiling of Cryptococcus cells in response to oxidative stress. (Cheon et al. 2017)	DEFCP
+Cryptococcus neoformans H99	Global transcriptional analysis of wild-type and cuf1delta cells (Garcia-Santamarina et al. 2018)	DEFCP
+Cryptococcus neoformans H99	Comparative transcriptomics of C. neoformans mutants defective in heterochromatin regulation (Dumesic et al. 2015)	DEFCPSA
+Cryptococcus neoformans H99	The Cryptococcus neoformans transcriptome at the site of human meningitis (paired-end data) (Chen et al. 2014)	FCP
+Cryptococcus neoformans H99	The Cryptococcus neoformans transcriptome at the site of human meningitis (single-read data) (Chen et al. 2014)	DEFCP
+Cryptococcus neoformans H99	Cell cycle transcriptome of Cryptococcus neoformans var. grubii (Kelliher et al. 2016)	SDEFCPSA
+Cryptococcus neoformans H99	Nrg1 Expression (Unpublished Teresa O´Meara)	FCP
+Cryptococcus neoformans H99	Virulence of WT vs rim101 Mutant Cells (O'Meara et al. 2013)	FCP
+Cryptococcus neoformans H99	Fluconazole Sensitivity of Wild-type vs cfo1 Mutant (Kim et al. 2012)	DEFCP
+Cryptococcus neoformans H99	Transcriptomics analysis of cells in capsule inducing and non-inducing conditions (Haynes et al. 2011)	DEFCP
+Cryptococcus neoformans H99	RNA-Seq of cells treated with eltrombopag (Ko et al. 2019)	FCPSA
+Cryptococcus neoformans KN99	TF factor responses (Abid et al. 2025)	DEFCPSA
+Cryptococcus neoformans KN99	The transcription factor Pdr802 regulates Titan cell production and Cryptococcus neoformans pathogenicity (Reuwsaat et al. 2021)	DEFCPSA
+Cryptococcus neoformans KN99	Mapping 3-prime ends of coding genes with QuantSeq 3-prime mRNA-Seq (PAS-Seq) (Wallace et al. 2020)	DEFCPSA
+Cryptococcus neoformans KN99	Mapping TSS with TSS-Seq (Wallace et al. 2020)	DEFCPSA
+Cryptococcus neoformans KN99	Stranded mRNA-Seq for delineation of transcript ends in C. neoformans alphaKN99 (Wallace et al. 2020)	DEFCPSA
+Cryptosporidium hominis TU502	Transcriptome of C. hominis oocysts (Widmer 2018)	P
+Cryptosporidium parvum Iowa II	Myb gain of function (Walzer et al. 2024)	DEFCP
+Cryptosporidium parvum Iowa II	Infected ileum and cecum of IFN-gamma negative, STAg treated mice (Gallego-Lopez et al 2022)	DEFCPSA
+Cryptosporidium parvum Iowa II	Lifecycle progression and sexual development (Tandel et al.)	DEFCP
+Cryptosporidium parvum Iowa II	Transcriptome of C. parvum intracellular stages (Widmer et al.)	DEFCPSA
+Cryptosporidium parvum Iowa II	Transcriptome of C. parvum sporozoites treated with GalNAc (Widmer 2018)	DEFCPSA
+Cryptosporidium parvum Iowa II	Transcriptome of 48 hours in vitro infection (Isaza et al.)	P
+Cryptosporidium parvum Iowa II	Transcriptome of oocyst and intracellular stages (Widmer et al.)	FCPSA
+Cryptosporidium parvum Iowa II	Transcriptome of sporozoites and HTC-8 infection time course (Lippuner et al.)	FCPSA
+Culex quinquefasciatus JHB 2020	Individual Hawaiian mosquitoes response to the avian malaria parasite Plasmodium relictum (Ferreira et al 2022)	DEFCPSA
+Culex quinquefasciatus JHB 2020	Larvae (L4) from a highly insecticide-resistant strain (HAmCqG8) exposed to permethrin (Reid et al 2018)	DEFCP
+Culex quinquefasciatus JHB 2020	Female mosquitoes from two populations (Gainesville and Vero Beach; Florida, USA) feed on blood with West Nile virus (Shin et al 2014)	FCP
+Culex quinquefasciatus JHB 2020	Hsu mosquito cell line was infected with the West Nile Virus (WNV) for 48 hours (Paradkar et al 2015)	DEFCP
+Culex quinquefasciatus JHB 2020	Antennae vs hind legs (Leal et al 2013)	FCP
+Culex quinquefasciatus JHB 2020	Culex pipiens molestus and Culex pipiens quinquefasciatus (Li and Zhao 2014, unpublished)	P
+Culex quinquefasciatus JHB 2020	Fourth instar larvae from a highly permethrin resistant strain (HAmCqG8) and its parental low resistance strain (HAmCqG0) (Liu 2012, unpublished)	FCP
+Culex quinquefasciatus JHB 2020	Antennae from females non-blood fed (nbf, host-seeking) and blood-fed to completion (bf, resting) mosquitoes (Taparia et al 2017)	DEFCPSA
+Culex quinquefasciatus JHB 2020	Non-blooded adult female at seven post-eclosion time points (2, 12, 24, 36, 48, 60, and 72 hours) (Reid et al 2015)	DEFCP
+Culex quinquefasciatus JHB 2020	Insecticides resistance (Li and Zhao 2014, unpublished)	DEFCP
+Culicoides sonorensis PIR-s-3	KC cell line under 11 different conditions (EMBL-EBI 2018, unpublished)	DEFCP
+Culicoides sonorensis PIR-s-3	Vector competence for bluetongue virus (BTV) (Morales-Hojas et al 2018)	DEFCP
+Cystoisospora suis strain Wien I	RNASeq Cystoisospora suis strain Wien I. (Cruz-Bustos et al 2025)	DEFCPSA
+Cystoisospora suis strain Wien I	Transcriptome from asexual to sexual in vitro development of Cystoisospora suis (Cruz-Bustos et al. 2022)	DEFCPSA
+Dermacentor andersoni qqDerAnde1.2	Tick cell lines DAE15, DAE100 and DVE1 (Neafsey et al 2014, unpublished)	DEFCP
+Dermacentor silvarum Dsil-2018	Questing/active adults from vegetation, summer diapause, and overwintering from leaf litter (Yu et al 2020)	FCP
+Dictyostelium discoideum AX4	D. discoideum developmental program transcriptome (Parikh et al. 2010)	DEFCP
+Dictyostelium discoideum AX4	Intracellular L. pneumophila infection of D. discoideum (Kjellin et al. 2019)	DEFCPSA
+Dictyostelium discoideum AX4	Intracellular M. marinum infection of D. discoideum (Kjellin et al. 2019)	DEFCP
+Dictyostelium purpureum QSDP1	D. purpureum developmental program transcriptome (Parikh et al. 2010)	DEFCP
+Eimeria falciformis Bayer Haberkorn 1970	Eimeria transcriptome during infection in mice (Dual RNA-Seq) (Ehret et al.)	DEFCP
+Eimeria maxima Weybridge	Sporulation in two stains of E maxima (APU-1, APU02) (Tucker et al. 2024)	DEFCPSA
+Eimeria tenella Houghton 2021	miRNA of E. tenella in the unsporulated oocyst, sporulated oocyst and schizogony stages (Zhang et al. 2022)	FCP
+Eimeria tenella Houghton 2021	Eimeria tenella response to toltrazuril (Zhang et al. 2023)	DEFCP
+Eimeria tenella Houghton 2021	Monensin treatment in sensitive and resistant E tenella strains (Zhang et al. 2022)	DEFCP
+Eimeria tenella Houghton 2021	Eimeria tenella transcriptome during infection in chicken macrophage-like cells (Dual RNA-Seq) (Sandholt et al 2021)	DEFCPSA
+Eimeria tenella Houghton 2021	Transcriptome of E. tenella from infected chicken caecal tissues (Sandholt et al 2021)	DEFCPSA
+Eimeria tenella Houghton 2021	Gametocytes vs 2 Asexual Stages (Walker et al.)	DEFCP
+Eimeria tenella Houghton 2021	Life Cycle Stages Transcriptomes (Reid)	DEFCP
+Endotrypanum monterogeii strain LV88	Promastigote transcriptome for E monterogeii ATCC30507 (Albanaz et al. 2021)	P
+Entamoeba dispar SAW760	Small RNA and antisense transcription in E dispar (Mornico et al. 2022)	FCPSA
+Entamoeba histolytica HM-1:IMSS	Axenic (normal, attenuated, virulent) and colon cultured E histolytica (Mornico et al. 2020)	DEFCPSA
+Entamoeba histolytica HM-1:IMSS	Small RNA and antisense transcription in E histolytica (Mornico et al. 2022)	FCPSA
+Entamoeba histolytica HM-1:IMSS	Heat Shock effects on E histolytic transcriptome (Mornico et al. 2020)	DEFCPSA
+Entamoeba histolytica HM-1:IMSS	Initiation of natural antisense transcription in E histolytica (Mornico et al. 2020)	FCPSA
+Entamoeba histolytica HM-1:IMSS	Auranofin-adapted trophozoite (AFAT) transcriptome (Shaulov et al.)	DEFCPSA
+Entamoeba histolytica HM-1:IMSS	Transcriptome of Entamoeba histolytica in normal and stressed conditions (Nayier et al)	DEFCP
+Entamoeba histolytica HM-1:IMSS	Transcriptomes of HM1:IMSS and Rahman strain trophozoites (Hon et al.)	DEFCP
+Entamoeba histolytica HM-1:IMSS	Trophozoite transcriptome of E. histolytica (Wojtkawska et al.)	P
+Entamoeba invadens IP1	Small RNA and antisense transcription in E invadens (Mornico et al. 2022)	FCPSA
+Entamoeba invadens IP1	Transcriptome during encystation and excystation (Ehrenkaufer et al.)	DEFCP
+Entamoeba moshkovskii Laredo	Small RNA and antisense transcription in E moshkovskii (Mornico et al. 2022)	FCPSA
+Exophiala dermatitidis NIH/UT8656	Transcriptomic responses under acidic pH stress (Chen et al. 2014)	DEFCPSA
+Fusarium fujikuroi IMI 58289	In planta expression profiles of Fusarium fujikuroi (Niehaus et al. 2016)	DEFCP
+Fusarium graminearum PH-1	RNA-seq analysis of FSS1-dependent genes in Fusarium graminearum Z-3639 (Son et al. 2015)	DEFCP
+Fusarium graminearum PH-1	RNA-seq Analysis of FlbD-, AbaA-, and WetA-dependent Genes in Fusarium graminearum Z-3639 (Son et al. 2013)	DEFCP
+Fusarium graminearum PH-1	Fusarium transcriptome in low and high nitrogen conditions (Connolly et al. 2013)	DEFCP
+Fusarium graminearum PH-1	RNA-Seq analysis of transcriptomes at 1 day after sexual induction (Son et al. 2016)	DEFCP
+Fusarium graminearum PH-1	Genome-wide gene expression analysis of spores and mycelium (Zhao et al. 2014)	DEFCP
+Fusarium graminearum PH-1	Transcriptome of heat-stressed Fusarium graminearum Z-3639 (Bui et al. 2016)	DEFCPSA
+Fusarium graminearum PH-1	Transcriptomic analysis during vegetative and infectious growth of Fusarium graminearum PH-1 (Wang et al. 2017)	DEFCP
+Fusarium graminearum PH-1	Stage-specific and genome-wide gene expression during the different developmental stages of Fusarium graminearum (Liu et al. 2016)	DEFCPSA
+Fusarium graminearum PH-1	Transcriptome in response to an active or passive host (Boedi et al. 2016)	DEFCP
+Fusarium mangiferae MRC7560	In planta expression profiles of Fusarium mangiferae (Niehaus et al. 2016)	DEFCP
+Fusarium odoratissimum strain race 4	Transcriptomics of banana pathogen Fusarium odoratissimum strain race 4 (Guo et al. 2014)	FCP
+Fusarium oxysporum f. sp. cubense race 1	Transcriptomics of banana pathogen Fusarium oxysporum f.sp. cubense race 1 (Guo et al. 2014)	FCP
+Fusarium oxysporum f. sp. lycopersici 4287	Transcriptomic changes during spore germination for Fusarium oxysporum f. sp. lycopersici 4287 (Kim et al. 2025)	DEFCPSA
+Fusarium oxysporum f. sp. lycopersici 4287	Copper acquisition in Fusarium oxysporum f. sp. lycopersici 4287 during plant infection (Di Pietro et al., 2024)	DEFCP
+Fusarium oxysporum f. sp. lycopersici 4287	Transcriptional response of Fusarium oxysporum FMR9788 to antifungal drug resistance (Restrepo et al. 2016)	FCP
+Fusarium proliferatum ET1	In planta expression profiles of Fusarium proliferatum NRRL 62905 (Niehaus et al. 2016)	DEFCP
+Fusarium proliferatum ET1	In planta expression profiles of Fusarium proliferatum ET1 (Niehaus et al. 2016)	DEFCP
+Fusarium solani FSSC 5 MPI-SDFR-AT-0091	Transcriptome of Fusarium solani in response to antifungal drugs (Restrepo et al.)	FCP
+Fusarium verticillioides 7600	Transcriptional changes during maize root infection (Niehaus et al. 2016)	DEFCP
+Gallus gallus isolate bGalGal1	Chicken caecal tissue during E tenella infection (Sandholt et al 2021)	DEFCPSA
+Gallus gallus isolate bGalGal1	Chicken macrophage-like cells (HD11) infected in vitro with Eimeria tenella (Sandholt et al 2021)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Giardia transcriptome during infection in enteroid-derived IEC (Grüttner et al. 2023)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Encysting Giardia during infection in human IEC (Rojas et al. 2022)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Giardia Infection in human IEC (Rojas et al. 2022)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Metronidazole resistant cell line transcriptomes (Krakovka et al 2022)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Giardia Encystation Time Course (Rojas-Lopez et al 2021)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Trophozoite Transcriptome of Giardia assemblage A strain AS175 (gassAWB2019 aligned) (Franzen et al.)	DEFCPSA
+Giardia Assemblage A isolate WB 2019	Assemblage A intestine foci transcriptome (gassAWB2019 aligned) (Pham et al.)	DEP
+Giardia Assemblage A isolate WB 2019	Trophozoite transcriptome (gassAWB2019 aligned) (Tolba et al.)	P
+Giardia Assemblage A isolate WB 2019	(WB) Trophozoite Transcriptome (Franzen et al.)	P
+Giardia Assemblage A isolate WB 2019	Time-dependent transcriptional changes in axenic trophozoites (gassAWB2019 aligned) (Ansell et al.)	DEFCP
+Giardia Assemblage B isolate GS	(GS) Trophozoite Transcriptome (Franzen et al.)	P
+Giardia Assemblage E isolate P15	(P15) Trophozoite Transcriptome (Franzen et al.)	P
+Glossina brevipalpis IAEA	Midgut and bacteriome from low vector competent tsetse flies (Medina Munoz et al 2021)	DEFCPSA
+Glossina brevipalpis IAEA	Whole male vs female (from non-lactating vs lactating) (Attardo et al 2019)	FCP
+Glossina fuscipes IAEA	Reproductive tissues infection with endosymbiotic Spiroplasma (Son et al 2021)	DEFCPSA
+Glossina fuscipes IAEA 2018	Generic RNAseq for gene prediction (Glossina Genomes Consortium, 2012, unpublished)	P
+Glossina fuscipes IAEA 2018	Reproductive tissues infection with endosymbiotic Spiroplasma (Son et al 2021)	DEFCPSA
+Glossina morsitans Yale	Midgut and bacteriome from high vector competent tsetse flies (Medina Munoz et al 2021)	DEFCPSA
+Glossina morsitans Yale	Male heads (without antenna): not infected vs infected with T.b.brucei (Kabaka et al 2020)	DEFCPSA
+Glossina morsitans Yale	Male antenna: fed vs unfed (Kabaka et al 2020)	DEFCPSA
+Glossina morsitans Yale	Proboscis with and without Trypanosoma infection (Awuoche et al 2017)	FCPSA
+Glossina morsitans Yale	Wild vs aposymbiotic larvae (Benoit et al 2017)	DEFCP
+Glossina morsitans Yale	Transcriptome during milk production (Benoit et al 2014)	FCP
+Glossina morsitans Yale	Probosces infected with Trypanasoma brucei (Awuoche et al 2017)	DEFCPSA
+Glossina morsitans Yale	Aposymbiotic midguts (Bing et al 2017)	P
+Glossina morsitans Yale	T. b. rhodesiense infection (Aksoy et al 2016)	DEFCPSA
+Glossina morsitans Yale	Salivary glands with and without Trypanosoma infection (Telleria et al 2013, unpublished)	FCP
+Glossina morsitans Yale	Aposymbiotic male reproductive gene expression (Scolari et al 2018)	DEFCPSA
+Glossina pallidipes IAEA	Whole male vs female (from non-lactating vs lactating) (Attardo et al 2019)	FCP
+Glossina pallidipes IAEA	Midgut and carcass with and without Trypanosoma infection (Bateta et al 2017)	DEFCP
+Glossina palpalis IAEA	Whole male vs female (from non-lactating vs lactating) (Attardo et al 2019)	FCP
+Haemaphysalis longicornis HaeL-2018	Engorged female from a stray domestic dog (Niu et al 2019)	P
+Haemaphysalis longicornis HaeL-2018	Treated with tetracycline and control (Zhong et al 2021)	DEFCP
+Hepatocystis sp. ex Piliocolobus tephrosceles 2019	Blood stage transcriptome (Aunin et al.)	P
+Histoplasma capsulatum G184AR	Comparative transcriptomes of yeast and hyphal forms in Histoplasma capsulatum G184AR (Gilmore et al. 2015)	DEFCPSA
+Histoplasma capsulatum G217B	Expression profiling of yeast to filament transition in Histoplasma (Rodriguez et al. 2019)	DEFCPSA
+Histoplasma capsulatum G217B	Histoplasma capsulatum yeast and mycelial transcriptomes (G186A and G217B) (Edwards et al. 2013)	DEFCP
+Histoplasma capsulatum G217B	Comparative transcriptomes of yeast and hyphal forms in Histoplasma capsulatum G217B (Gilmore et al. 2015)	DEFCPSA
+Histoplasma capsulatum H143	Comparative transcriptomes of yeast hyphal forms in Histoplasma capsulatum H143 (Gilmore et al. 2015)	DEFCPSA
+Histoplasma capsulatum var. duboisii H88	Comparative transcriptomes of yeast and hyphal forms in Histoplasma capsulatum H88 (Gilmore et al. 2015)	DEFCPSA
+Homo sapiens REF	Trichophyton spp. co-culture with HaCaT keratinocytes dual RNA-seq (Ma et al.) (Ma et al., 2023)	DEFCP
+Homo sapiens REF	Human skin biopsies from ordinary scabies (OS) and naïve (to scabies and allergy) patients (Shehwana et al 2021)	FCP
+Homo sapiens REF	RNA-Seq of human PBMCs stimulated with Aspergillus fumigatus (Dewi et al. 2021)	DEFCP
+Homo sapiens REF	RNA-Seq of human PBMCs stimulated with Candida albicans (Dewi et al. 2021)	DEFCP
+Homo sapiens REF	Host transcriptome in response to Rhizopus oryzae (Dewi et al. 2021)	DEFCP
+Homo sapiens REF	Enteroid-derived IEC infected with Giardia (Grüttner et al. 2023)	DEFCPSA
+Homo sapiens REF	Transcriptomic response of human alveolar epithelial cells exposed to Scedosporium aurantiacum conidia (Kaur et al. 2019)	DEFCP
+Homo sapiens REF	Transcriptomics of human airway epithelial cells upon exposure to Aspergillus fumigatus (Watkins et al. 2018)	DEFCP
+Homo sapiens REF	Transcriptome dynamics in Candida and human cell culture during infection (Liu et al. 2015)	DEFCP
+Homo sapiens REF	Candida auris infection of human whole blood (Allert et al. 2022)	DEFCPSA
+Homo sapiens REF	Human IEC transcriptome during coincubation with Giardia cysts (Rojas et al. 2022)	DEFCPSA
+Homo sapiens REF	Human transcriptome during infection with encysting Giardia (Rojas et al. 2022)	DEFCPSA
+Homo sapiens REF	Human IEC cell transcriptome during Giardia Infection (Rojas et al. 2022)	DEFCPSA
+Homo sapiens REF	Patient isolate transcriptomes at acute and 42-days post drug cure. (P vivax) (Brito et al 2022)	DEFCPSA
+Homo sapiens REF	T gondii infected human host cells vs control (Wijetunga et al. 2017)	DEFCPSA
+Homo sapiens REF	Human brain transcriptome during incubation with parasite-infected erythrocyte specific protein 2 (PIESP2) (Liu et al. 2021)	DEFCP
+Homo sapiens REF	Transcriptome of lung epithelial cells stimulated by hemozoin (Shah et al 2021)	DEFCPSA
+Homo sapiens REF	Host response to early and mid-stage P. berghei liver infection (Toro-Moreno and Sylvester et al.)	DEFCP
+Homo sapiens REF	HFF transcriptional response to virulent and avirulent T. cruzi (Belew et al. 2017)	DEFCP
+Homo sapiens REF	Leishmania major and Leishmania amazonensis RNA-Seq during human macrophage infection (Fernandes et al.)	DEFCP
+Homo sapiens REF	H sapiens Transcriptome during Infection with T cruzi (Li et al.)	DEFCP
+Homo sapiens REF	Early RNA sequencing of human monocytes in presence of Candida albicans (Halder et al. 2020)	FCPSA
+Homo sapiens REF	Fresh whole blood infected with Candida tropicalis (Sieber et al. 2019)	DEFCP
+Homo sapiens REF	Fresh whole blood infected with Candida parapsilosis (Sieber et al. 2019)	DEFCP
+Homo sapiens REF	Fresh whole blood infected with Candida glabrata (Sieber et al. 2019)	DEFCP
+Homo sapiens REF	Fresh whole blood infected with Candida albicans (Sieber et al. 2019)	DEFCP
+Homo sapiens REF	PBMCs stimulated for 4h and 24h with live Candida spp. and their cell wall components (Bruno et al. 2020)	DEFCPSA
+Hyaloperonospora arabidopsidis Emoy2	Signatures of Adaptation to Obligate Biotrophy (John Mc. Dowell)	P
+Ixodes persulcatus Iper-2018	RNA-Seq of Ixodes persulcatus (Liang-Jing Li et al. 2022)	FCP
+Ixodes scapularis PalLabHiFi	Unfed to post-engorgement midguts of adult females (Lu et al 2023)	DEFCPSA
+Ixodes scapularis PalLabHiFi	Tick Cell Lines ISE6, ISE18, IDE2, IDE8, IDE12 and IRE11 (Neafsey et al 2014, unpublished)	DEFCP
+Ixodes scapularis PalLabHiFi	Midgut transcriptome following SelK knockdown in Borrelia burgdorferi-infected ticks (NIH-NIAID 2019, unpublished)	FCPSA
+Ixodes scapularis PalLabHiFi	Gut transcriptome of unfed ticks injected with recombinant mouse adiponectin (Tang et al 2021)	DEFCP
+Ixodes scapularis PalLabHiFi	Gut transcriptomes of ISARL and GFP-injected ticks after engorgement on B. burgdorferi-infected or uninfected mice (Tang et al 2021)	DEFCPSA
+Ixodes scapularis PalLabHiFi	Ixodes ricinus naive (unfed) female midgut (Cramaro et al 2015)	P
+Ixodes scapularis PalLabHiFi	24h post blood feeding (Mulenga et al 2014, unpublished)	FCP
+Ixodes scapularis PalLabHiFi	Uninfected (control) vs infected with Anaplasma phagocytophilum human NY18 isolate (Villar et al 2015)	DEFCPSA
+Ixodes scapularis PalLabHiFi	Tick cell line ISE6 uninfected and infected with Ehrlichia (Tallon 2014, unpublished)	DEFCP
+Ixodes scapularis PalLabHiFi	Male vs female and forelegs vs hindlegs (Josek et al 2018)	DEFCPSA
+Ixodes scapularis PalLabHiFi	Female Synganglion (Egekwu et al 2014)	P
+Leishmania amazonensis MHOM/BR/71973/M2269	Leishmania amazonensis arginase-dependent gene expression regulation (Aoki et al.)	DEFCPSA
+Leishmania amazonensis MHOM/BR/71973/M2269	Leishmania amazonensis RNA-Seq during human macrophage infection (Fernandes et al.)	DEFCP
+Leishmania braziliensis MHOM/BR/75/M2904	Life Stages Transcriptomes (AMA, META, PRO) (Ruy et al.)	DEFCPSA
+Leishmania donovani BPK282A1	Spliced Leader Sites (Peter Myler)	P
+Leishmania donovani BPK282A1	Visceral vs cutaneous isolate transcriptomes (Zhang et al.)	DEFCPSA
+Leishmania infantum JPCM5	Promastigote transcriptome (Jeremy Mottram)	P
+Leishmania major strain Friedlin	Effect of heat shock on promastigote transcriptome (Rastrojo et al.)	FCPSA
+Leishmania major strain Friedlin	Spliced Leader And Poly A Sites (Myler et al.)	SSLFCP
+Leishmania mexicana MHOM/GT/2001/U1103	Promastigote, Axenic Amastigote and Intracellular Amastigote Transcriptomes (Fiebig et al.)	DEFCP
+Leptomonas pyrrhocoris H10	Transcriptome of total- and polyA RNA fraction (LpyrH10) ()	P
+Leptotrombidium deliense UoL-UT	L. pallidum larvae and adult female mapped to L. deliense (Kim et al 2020)	FCP
+Lodderomyces elongisporus NRRL YB-4239	Transcriptional responses to macrophage phagocytosis (Pountain et al. 2021)	DEFCPSA
+Lutzomyia longipalpis M1	Adult females (sugar, blood, and blood with Le. infantum) sampled at different time intervals (6, 24, and 144 hours), plus larvae samples (Labbé et al 2023)	DEFCP
+Lutzomyia longipalpis M1	Midguts at 7-time points with and without Leishmania infection (Coutinho-Abreu et al 2020)	DEFCPSA
+Macaca fascicularis REF	Transcriptional landscape of Cryptococcus-host response (Li et al. 2019)	DEFCPSA
+Macaca mulatta isolate AG07107	M. mulatta infected with P. cynomolgi over 100 days (Joyner et al.)	DEP
+Malassezia restricta KCTC 27527	RNA-seq analysis of the azole resistant isolates (Park et al. 2020)	DEFCPSA
+Malaya genurostris Urasoe2022	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Malaya genurostris Urasoe2022	Adult bodies, with no head, and immature life stages (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Mucor lusitanicus CBS 277.49	Mucor circinelloides spores phagocytosed by mouse macrophages: single culture (Pérez-Arques et al. 2019)	DEFCPSA
+Mucor lusitanicus CBS 277.49	Transcriptomics of Mucor circinelloides NCRIP deficient spores phagocytosed by mouse macrophages (Pérez-Arques et al. 2020)	FCPSA
+Mus musculus C57BL6J	Pulmonary fibroblast activation during Aspergillus fumigatus infection (Guirao-Abad et al. 2026)	DEFCP
+Mus musculus C57BL6J	Heterogeneity of alveolar macrophages in fungal infections (single-cell RNA-seq) (Xu-Vanpala et al. 2020)	FCPSA
+Mus musculus C57BL6J	Characterization of alveolar macrophage subsets infected by Cryptococcus neoformans (Xu-Vanpala et al. 2020)	DEFCP
+Mus musculus C57BL6J	Transcriptional Remodeling Patterns in Murine Dendritic Cells Infected with Paracoccidioides brasiliensis (de-Souza-Silva et al., 2020)	DEFCP
+Mus musculus C57BL6J	RNA Sequencing of BMDM of Mus musculus stimulated by C. auris and C. albicans (Wang et al. 2022)	DEFCPSA
+Mus musculus C57BL6J	RNA-Seq of bone-marrow-derived macrophages stimulated by C. auris or C. albicans (Chen et al. 2022)	DEFCP
+Mus musculus C57BL6J	In vitro infections of mouse BMDMs with Rhizopus delemar (Andrianaki et al. 2018)	DEFCP
+Mus musculus C57BL6J	Characterization of transcriptome dynamics in response to contact with host cells (Liu et al. 2015)	DEFCP
+Mus musculus C57BL6J	RNA-seq analysis of an in vivo murine model of vulvovaginal candidiasis (Bruno et al. 2015)	DEFCP
+Mus musculus C57BL6J	Mouse transcriptional response during early stages of R. delemar infection (pulmonary mucormycosis) (Watkins et al. 2018)	DEFCP
+Mus musculus C57BL6J	Mouse transcriptomes during oropharyngeal candidiasis infection (Kirchner, et al. 2019)	DEFCPSA
+Mus musculus C57BL6J	Macrophage responses to Candida infection (Pountain et al. 2021)	DEFCPSA
+Mus musculus C57BL6J	Mouse transcriptome during E falciformis infection (Ehret et al.)	DEFCP
+Mus musculus C57BL6J	Transcriptional profile of bone marrow derived dendritic cells in response to infection by Paracoccidioides (de-Souza-Silva et al. 2020)	DEFCPSA
+Mus musculus C57BL6J	IFN-gamma independent host response to intestinal C. parvum infection (Mendoza Cavazos et al 2022)	DEFCPSA
+Mus musculus C57BL6J	In vivo mouse transcriptome during P. chaubadi infection (Ramaprasad et al)	DEFCPSA
+Mus musculus C57BL6J	Mouse transcriptome during P. vinckei CY infection time course (Ramaprasad et al)	DEFCPSA
+Mus musculus C57BL6J	Mouse transcriptome during early and late chronic infection with T. gondii (Garfoot et al.)	DEFCP
+Mus musculus C57BL6J	Transcriptional analysis of sorted subpopulations of mouse macrophages infected with C. albicans (Munoz et al.)	DEFCP
+Mus musculus C57BL6J	Transcriptome of mouse bone marrow derived macrophages infected by Wild-Type and gra18 mutant strains of T. gondii (He et al.)	DEFCP
+Mus musculus C57BL6J	Transcriptomes of 4 M. musculus cell types during infection with T. gondii (Swierzy et al.)	DEFCP
+Mus musculus C57BL6J	Transcriptomes of mouse macrophages infected with Leishmania mexicana (Fiebig et al.)	DEFCP
+Mus musculus C57BL6J	Mouse transcriptome during infection with 29 strains of T. gondii (Minot et al.)	SDEFCP
+Mus musculus C57BL6J	Transcriptional landscape of Cryptococcus-host response (Li et al. 2019)	DEFCPSA
+Mus musculus C57BL6J	Mouse macrophages infected with Mucor circinelloides (Perez-Arques et al. 2019)	DEFCPSA
+Mus musculus C57BL6J	Transcriptome of injected neurons and bystanders during Toxoplasma infection (Johnson et al.)	DEFCP
+Musca domestica aabys	Effects of naturally occurring proto-Y chromosomes on house fly gene expression (Son et al 2019)	DEFCPSA
+Musca domestica aabys	Impacts of the Hytrosavirus (Kariithi et al 2017)	DEFCP
+Musca domestica aabys	Alternative sex determining genotypes (Meisel et al 2015)	DEFCP
+Musca domestica aabys	Knockdown of a sex determining gene (Son et al 2019)	DEFCPSA
+Musca domestica aabys	Insecticide susceptible vs resistant (Li et al 2013)	DEFCP
+Musca domestica aabys	Musca domestica Infection-Regulated Transcriptome (Sackton et al)	DEFCP
+Mycosarcoma maydis 521	Transcriptional response of Ustilago maydis to hemin treatment (Damoo et al. 2024)	DEFCP
+Mycosarcoma maydis 521	mRNA profiling in Ustilago maydis under RUS (Malesevic et al. 2022)	FCP
+Mycosarcoma maydis 521	Transcriptome analysis of WT and khd4D mutant (Sankaranarayanan et al. 2023)	DEFCPSA
+Mycosarcoma maydis 521	Time series transcriptional profiling of Ustilago maydis infecting Zea mays (Lanver et al. 2018)	DEFCPSA
+Naegleria fowleri strain Ty	Trophozoite Transcriptome (Nfow) (Zysset-Burri et al.)	P
+Nakaseomyces glabratus CBS 138	DNA damage-induced transcriptome changes in Candida glabrata (Shor et al. 2020)	DEFCP
+Nakaseomyces glabratus CBS 138	Fresh human whole blood infected with Candida glabrata (Sieber et al. 2018)	DEFCP
+Nakaseomyces glabratus CBS 138	Transcriptome landscape of Candida glabrata during pH change and nitrosative stress (Linde et al. 2015)	DEFCPSA
+Nematocida parisii ERTm1	Time Series in Infected C. elegans (Cuomo et al.)	DEFCPSA
+Neospora caninum Liverpool	Tachyzoite Transcriptome Days 3 and 4 (Reid et al.)	DEFCP
+Neospora caninum Liverpool	Transcriptomes of virulent and avirulent N. caninum strains (Horcajo et al.)	DEFCPSA
+Neospora caninum Liverpool	Transcriptomes of virulent and avirulent N caninum isolates during bovine infection (Horcajo et al.)	DEFCPSA
+Neurospora crassa OR74A	Transcriptomics of the WT and mutants impacted in Histone 3 methylation (Belden et al., 2019)	DEFCP
+Neurospora crassa OR74A	Transcriptional profiling of Neurospora crassa conidia undergoing germling fusion: Δpp-1 vs WT (Leader et al. 2013)	FCP
+Neurospora crassa OR74A	Gene expression during conidia germination on PDA and Bird media (Lopez-Giraldez et al. 2022)	DEFCPSA
+Neurospora crassa OR74A	3-prime enriched transcriptome in WT (FGSC2489) and cpsf5 cpsf6 knockout mutant (Kelliher et al. 2023)	DEFCPSA
+Neurospora crassa OR74A	Transcriptome under standard minimal and iron strarvation conditions (Bayram et al. 2018)	DEFCPSA
+Neurospora crassa OR74A	Transcriptional regulation by the Velvet complex during asexual development in Neurospora crassa (Cea-Sánchez et al. 2022)	DEFCPSA
+Neurospora crassa OR74A	Gene expression during conidia germination in Neurospora crassa on different media (Wang et al. 2019)	DEFCPSA
+Neurospora crassa OR74A	Analysis of clock-regulated genes (Hurley et al. 2014)	FCMCP
+Neurospora crassa OR74A	Transcriptome of N. crassa strains grown on different carbon sources (complex polysaccharides) (Wu et al. 2020)	DEFCPSA
+Neurospora crassa OR74A	Transcriptomes of strains grown on different carbon sources (mono-, di- and polysaccharides) (Wu et al. 2020)	DEFCPSA
+Neurospora crassa OR74A	Transcriptomes of strains grown on different carbon sources (plant biomass) (Wu et al. 2020)	DEFCPSA
+Neurospora crassa OR74A	Transcriptional Profiling of sulfur starvation response (Huberman et al. 2021)	DEFCPSA
+Neurospora crassa OR74A	Comparative transcriptome of Neurospora crassa WT and delta mus52 strains (Martins et al. 2018)	DEFCP
+Neurospora crassa OR74A	Systems analysis of plant cell wall deconstruction by Neurospora crassa (Samal et al. 2017)	DEFCP
+Neurospora crassa OR74A	RNA-sequencing of WT and delta MSN1 strains of N. crassa over a circadian time course (Ananthasubramaniam et al. 2018)	DEFCMCPSA
+Neurospora crassa OR74A	The role of the SREBP pathway in the secretion of lignocellulolytic enzymes (Qin et al. 2017)	DEFCPSA
+Neurospora crassa OR74A	Transcriptomic investigation of CLR-1, CLR-2, and XLR-1 roles in plant cell wall degradation (Graig et al. 2015)	DEFCP
+Neurospora crassa OR74A	Transcriptomes during vegetative and sexual development stage (Liu et al. 2017)	DEFCPSA
+Neurospora crassa OR74A	Neurospora crassa Gene Expression Profiling Carbon Sources (Glass et al.)	DEFCPSA
+Neurospora crassa OR74A	Genome-wide transcriptome during sexual development (Wang et al. 2014)	DEFCP
+Neurospora crassa OR74A	Characterization of light regulated genes (Wu et al. 2014)	DEFCP
+Neurospora crassa OR74A	Transcriptome during sexual development in Neurospora crassa (Lehr et al.)	DEFCP
+Neurospora crassa OR74A	Transcriptional responses to various plant straws (Wang et al. 2015)	DEFCP
+Neurospora crassa OR74A	Transcriptome analysis of the col-26 mutant and its wild type parental strain (Glass et al. 2017)	DEFCP
+Neurospora crassa OR74A	Transcriptional profiles of WT and NCU04952, NCU00130, NCU08755 deletion mutant induced by exposure to Avicel (Znameroski et al. 2012)	DEFCP
+Neurospora crassa OR74A	Profiling of transcriptional response of clr-1 and clr-2 mutants to cellulose (Coradetti et al. 2012)	DEFCP
+Neurospora crassa OR74A	Transcriptional profiles induced by exposure to crystalline cellulose (Coradetti et al. 2013)	DEFCP
+Neurospora crassa OR74A	Population genomics transcriptomes (Ellison et al. 2011)	DEFCP
+Neurospora crassa OR74A	Gene expression analysis of ADV-1 and PP-1 mutants (Fischer et al. 2018)	DEFCPSA
+Neurospora crassa OR74A	Transcriptome changes in response to genotoxic stress (Basenko et al. 2015)	DEFCPSA
+Neurospora discreta FGSC 8579	Transcriptome of Neurospora discreta during sexual development (Lehr et al. 2014)	DEFCP
+Neurospora tetrasperma FGSC 2508	Transcriptome of Neurospora tetrasperma during sexual development (Lehr et al. 2014)	DEFCP
+Paracoccidioides lutzii Pb01	Effects of argentilactone on the transcriptional profile of Paracoccidioides lutzii (Araújo et al., 2016)	FCP
+Paracoccidioides lutzii Pb01	Transcriptional profile of cells exposed to argentilactone (Araújo et al. 2016)	FCP
+Parastagonospora nodorum SN15	In planta and in vitro RNA-Seq profiling of Parastagonospora nodorum (Jones et al. 2019)	DEFCPSA
+Pediculus humanus USDA	Male and female body (Wexler et al 2019)	FCP
+Pediculus humanus USDA	Female accessory gland and ovary on day 0 and day 5 (Ju Hyeon Kim et al 2021, unpublished)	DEFCPSA
+Phlebotomus papatasi M1	Wild-caught P. kandelakii female salivary glands aligned to P. papatasi (Oliveira et al 2020)	P
+Phlebotomus papatasi M1	larvae+pupae, males and females (sugar), and females (blood, and blood with Le. major sampled at 6, 24, and 96 hours) (Labbé et al 2023)	DEFCP
+Phlebotomus papatasi M1	Blood (with and without parasites) at 1, 4, or 9 days post blood meal (Sloan et al 2021)	DEFCPSA
+Phytophthora cactorum P414	RNA-Seq of mycelia, zoospores and germinating cysts (Yangzhou University, 2015)	FCP
+Phytophthora cinnamomi GKB4	Transcriptome of P. cinnamomi infecting avocado roots (unstranded) (Engelbrecht et al. 2021)	DEFCP
+Phytophthora cinnamomi GKB4	Transcriptome of P. cinnamomi infecting avocado roots (stranded) (Engelbrecht et al. 2021)	DEFCPSA
+Phytophthora infestans T30-4	RNA-seq of Phytophthora infestans T30-4 during two infection stages (Chen et al. 2024)	DEFCPSA
+Phytophthora infestans T30-4	Transcriptomes of Phytophthora infestans at mycelium stage (Tzelepis et al. 2020)	DEFCPSA
+Phytophthora ramorum strain Pr102	Transcript Profiling In Sporulations/Media (Takao Kasuga)	DEFCP
+Phytophthora sojae strain P6497	Transcriptomes of Phytophthora sojae at mycelium stage. (Chen et al. 2018)	DEFCP
+Phytophthora sojae strain P6497	WT and DAMT3 mutant transcriptome at mycelium stage (Chen et al. 2018)	DEFCP
+Phytophthora sojae strain P6497	Expression During Infection (Brett M Tyler)	FCP
+Plasmodium berghei ANKA	Dietary restriction of P berghei WT and Δkin parasites (Mancio-Silva et al.)	DEFCPSA
+Plasmodium berghei ANKA	Transcriptomes of viable ApiAP2 mutants by directional RNA-seq (Modrzynska et al.)	DEFCPSA
+Plasmodium berghei ANKA	Ex-erythrocytic stage transcriptomes (sporozoite, liver time course and detached cells) (Caldelari et al.)	DEFCP
+Plasmodium berghei ANKA	Transcriptome during early and mid-stage P. berghei liver infection (Toro-Moreno and Sylvester et al.)	DEFCP
+Plasmodium berghei ANKA	P. berghei transcriptome during inducible gametocytogenesis (Kent and Modrzynska et al.)	DEFCPSA
+Plasmodium berghei ANKA	Female and male gametocyte (Yeoh et al.)	DEFCPSA
+Plasmodium berghei ANKA	5 asexual and sexual stage transcriptomes (Hoeijmakers et al.)	DEFCP
+Plasmodium chabaudi chabaudi	IDC in SR10KO and WT (2020) (Subudhi et al. 2020)	DEFCPSA
+Plasmodium chabaudi chabaudi	In vivo transcriptome in mouse (Ramaprasad et al)	DEFCPSA
+Plasmodium chabaudi chabaudi	Transcriptomes of PcAS and PcCB from mosquito transmitted or serial blood passaged mouse infections. (Lin et al.)	DEFCPSA
+Plasmodium chabaudi chabaudi	Trophozoite transcriptomes after mosquito transmission or direct injection into mice (Spence et al.)	DEFCP
+Plasmodium cynomolgi strain M	Hypnozoite, schizont and blood stage transcriptomes (laser microdissection) (Cubi et al.)	DEFCP
+Plasmodium cynomolgi strain M	Liver stage hypnozoite vs schizont transcriptomes (primary culture) (Voorberg-van der Wel et al.)	DEFCP
+Plasmodium cynomolgi strain M	Transcriptome of P. cynomolgi during 100-day infection in M. mulatta (Joyner et al.)	DEP
+Plasmodium falciparum 3D7	RNASeq of P. falciparum liver stages throughout intrahepatocytic development (Zanghi et al 2025)	DEFCP
+Plasmodium falciparum 3D7	Comparison of in vitro versus aseptic mosquito produced sporozoites by RNA-seq (Eappen et al. 2022)	FCPSA
+Plasmodium falciparum 3D7	High resolution intraerythrocytic time course transcriptome by RNA-Seq (Kucharski and Tripathi et al.)	SDEFCP
+Plasmodium falciparum 3D7	Heat shock response in sensitive mutants (LRR5, DHC) (Zhang et al. 2021)	DEFCPSA
+Plasmodium falciparum 3D7	Intraerythrocytic development cycle transcriptome by UTR-Seq (2020) (Chappell et al. 2020)	DEFCP
+Plasmodium falciparum 3D7	IDC in constant temperature and darkness (2020) (Subudhi et al. 2020)	DEFCPSA
+Plasmodium falciparum 3D7	Oocyst and salivary gland sporozoite transcriptome comparison in P. falciparum (Lindner et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Transcriptome of sequestration phenotypes (Kamaliddin et al)	DEFCPSA
+Plasmodium falciparum 3D7	Intraerythrocytic development cycle transcriptome by DAFT-Seq (3D7, HB3, IT, 2020) (Chappell et al. 2020)	DEFCPSA
+Plasmodium falciparum 3D7	Transcriptome of the asexual life stages (Tang et al. 2020)	DEFCPSA
+Plasmodium falciparum 3D7	Intraerythrocytic development cycle transcriptome (2019) (Wichers et al. 2019)	DEFCP
+Plasmodium falciparum 3D7	Intraerythrocytic development cycle transcriptome (2018) (Toenhake et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Strand specific transcriptome of the intraerythrocytic developmental cycle (Siegel et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Ring, Oocyst and Sporozoite Transcriptomes (Zanghi et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Gametocyte Transcriptomes (Lasonder et al.)	FCPSA
+Plasmodium falciparum 3D7	Intraerythrocytic cycle transcriptome (3D7) (Hoeijmakers et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Mosquito or cultured sporozoites and blood stage transcriptome (NF54) (Hoffmann et al.)	DEFCP
+Plasmodium falciparum 3D7	Polysomal and steady-state asexual stage transcriptomes (Bunnik et al.)	DEFCP
+Plasmodium falciparum 3D7	Blood stage transcriptome (3D7) (Otto et al.)	DEFCP
+Plasmodium falciparum 3D7	Asexual blood stages, salivary gland sporozoite and midgut oocyst transcriptomes (Gomez-Diaz)	DEFCPSA
+Plasmodium falciparum 3D7	NSR-seq Transcript Profiling of malaria-infected pregnant women and children (Vignali et al.)	FCP
+Plasmodium falciparum 3D7	Strand specific transcriptomes of 4 life cycle stages (Lopez-Barragan et al.)	DEFCPSA
+Plasmodium falciparum 3D7	Transcriptomes of 7 sexual and asexual life stages (Lopez-Barragan et al.)	DEFCP
+Plasmodium falciparum 3D7	Transcriptome during intraerythrocytic development (Bartfai et al.)	DEFCP
+Plasmodium falciparum 3D7	Trophozoite and Schizont transcriptomes of PfBDP1HA (Josling et al 2015)	DEFCPSA
+Plasmodium falciparum 3D7	Transcriptome in severe vs uncomplicated malaria (Tonkin-Hill et al 2018)	DEFCPSA
+Plasmodium knowlesi strain H	Cytoadherent and wild-type P. knowlesi (experiment 1) (Chuang et al. 2022)	DEFCPSA
+Plasmodium knowlesi strain H	Cytoadherent and wild-type P. knowlesi (experiment 2) (Chuang et al. 2022)	DEFCP
+Plasmodium vinckei vinckei CY	Mixed blood stage transcriptome for P. vinckei baforti EL (Ramaprasad et al 2021)	P
+Plasmodium vinckei vinckei CY	Mixed blood stage transcriptome for P. vinckei brucechwatti (Ramaprasad et al 2021)	P
+Plasmodium vinckei vinckei CY	Life cycle stage transcriptome for P. vinckei petteri (Ramaprasad et al 2021)	DEFCPSA
+Plasmodium vinckei vinckei CY	Life cycle stage transcriptome for P. vinckei lentum (Ramaprasad et al 2021)	DEFCPSA
+Plasmodium vinckei vinckei CY	Intraerythrocytic development cycle for P. vinckei CY (Ramaprasad et al)	DEFCPSA
+Plasmodium vivax P01	P vivax patient isolate transcriptomes (De Meulenaere et al. 2022)	DEFCPSA
+Plasmodium vivax P01	Patient isolates cultured through the intraerythrocytic development cycle (Rangel et al.)	DEFCP
+Plasmodium vivax P01	Transcriptome of P. vivax salivary gland sporozoites (Muller et al.)	DEFCP
+Plasmodium vivax P01	Sporozoite transcriptome in different microenvironments (Roth et al.)	DEFCP
+Plasmodium vivax P01	Hypnozoite RNA-Seq (Gural et al.)	DEFCPSA
+Plasmodium vivax P01	Transcription profile of intraerythrocytic cycle (Zhu et al.)	DEFCP
+Plasmodium yoelii yoelii 17X	Zygote and female gametocyte transcriptome (Rios et al.)	DEFCPSA
+Plasmodium yoelii yoelii 17X	Oocyst and salivary gland sporozoite transcriptome comparison in P. yoelii (Lindner et al.)	DEFCPSA
+Plasmodium yoelii yoelii 17X	Salivary gland sporozoite transcriptomes: WT vs. Puf2-KO (Lindner et al.)	FCP
+Plasmodium yoelii yoelii 17XNL 2023	Salivary gland sporozoite transcriptomes: WT vs. Puf2-KO mapped to P. yoelii yoelii 17XNL (Lindner et al. 2013)	FCP
+Plasmodium yoelii yoelii 17XNL 2023	Oocyst and salivary gland sporozoite transcriptome comparison in P. yoelii yoelii 17XNL (Lindner et al. 2019)	DEFCPSA
+Plenodomus lingam CAN1	RNA-Seq of KMT1 and Pf2 mutants (Clairet et al. 2024)	DEFCPSA
+Pneumocystis carinii B80	Pneumocystis carinii RNA-Seq (Mat et al. 2016)	FCPSA
+Pneumocystis murina B123	Pneumocystis murina RNA-Seq transcriptome (Mat et al. 2016)	FCPSA
+Podospora anserina S mat+	RNAseq analyses of Podospora anserina S+ life cycle (Silar et al. 2019)	DEFCPSA
+Porcisia hertigi MCOE/PA/1965/C119	Promastigote transcriptome of P. hertigi MCOE/PA/80/C8, TCC260 (Albanaz et al.)	P
+Porcisia hertigi MCOE/PA/1965/C119	Promastigote transcriptome for Porcisia deanei TCC258 (Albanaz et al. 2021)	P
+Porospora cf. gigantea A	P. cf. gigantea isolate JS-555 and JS-575c transcriptomes (Boisard et al.)	FCP
+Puccinia striiformis f. sp. tritici PST-130	RNA-seq of PST infecting wheat host. (Dobon et al. 2016)	DEFCP
+Puccinia striiformis strain 93-210	RNA sequencing of stripe rust infected wheat leaves and isolated haustoria (Cantu et al. 2013)	FCP
+Puccinia triticina 1-1 BBBD Race 1	Transcriptomes analysis of Puccinia triticina during growth on Lr34 resistant and susceptible wheat plants (Sucher et al. 2018)	DEFCP
+Pyricularia oryzae 70-15	Molecular basis of drought-induced susceptibility to the rice blast fungus Magnaporthe oryzae (Bidzinski et al., 2016)	DEFCP
+Pyricularia oryzae 70-15	Transcriptome under different nitrogen fertilization conditions (Huang et al., 2017)	DEFCP
+Pyricularia oryzae 70-15	RNA-seq of mycelial cultures of Dhox7 and Dmst12 (Osés-Ruiz et al. 2021)	DEFCP
+Pyricularia oryzae 70-15	Comparative transcriptomic analysis of appressorium development in Magnaporthe oryzae (Osés-Ruiz et al. 2020)	DEFCP
+Pyricularia oryzae 70-15	RNA-Seq of wheat blast field samples from Bangladesh (collected March, 2017) (Chanclud et al. 2017)	DEFCP
+Pyricularia oryzae 70-15	Transcriptome of Pyricularia oryzae isolates collected from Bangladeshi fields (Islam et al. 2016)	DEFCP
+Pyricularia oryzae BR32	Transcriptome of Pyricularia oryzae isolates collected from Bangladeshi fields (aligned to BR32) (Islam et al. 2016)	DEFCP
+Rattus norvegicus BN/NHsdMcwi	IEC18 cells infected with T. gondii (Guiton et al. 2017)	DEFCPSA
+Rattus norvegicus BN/NHsdMcwi	Rat brain primary cells transcriptome during infection with T. gondii (Mouveaux et al. 2021)	DEFCPSA
+Rhipicephalus microplus Rmic-2018	Salivary glands of adult females with and without Theileria equi infection (Paulino et al 2021)	DEFCPSA
+Rhipicephalus sanguineus Rsan-2018	R. sanguineus sensu lato larvae (Putignano strain) (De Marco et al 2017)	P
+Rhipicephalus sanguineus Rsan-2018	Tick Cell Line RSE8 RNA-Seq (Neafsey 2014, unpublished)	P
+Rhizopus delemar RA 99-880	In vitro infections of mouse BMDMs with Rhizopus delemar (Andrianaki et al. 2018)	DEFCP
+Rhizopus delemar RA 99-880	Hyphal Growth Time Series (Jason E. Stajich)	FCP
+Rhodnius prolixus CDC	Male and female gonads (Wexler et al 2019)	FCP
+Rhodnius prolixus CDC	Digestive tract and other tissues (Ribeiro et al 2014)	DEFCP
+Rhodnius prolixus CDC	Central Nervous System (Ons et al 2016)	P
+Rhodnius prolixus CDC	Adult (male and female) and nyphm antenna (Latorre-Estivalis et al 2017)	FCPSA
+Saccharomyces cerevisiae S288C	DNA damage-induced transcriptome changes in Saccharomyces cerevisiae (Shor et al. 2020)	DEFCP
+Saccharomyces cerevisiae S288C	S. cerevisiae transcriptomes in hypoxia and normoxia conditions (Hommel et al. 2019)	DEFCPSA
+Saccharomyces cerevisiae S288C	Cell cycle transcriptome of Saccharomyces cerevisiae (Kelliher et al. 2016)	SDEFCPSA
+Sarcoptes scabiei Arlian	S. scabiei suis, life stages, from pigs skin crusts (Korhonen et al 2020)	FCP
+Schizosaccharomyces pombe 972h-	Transcriptional Response of Impaired Hsp40/Hsp70 Chaperone Complex Mas5/Ssa2 (Aleksandarv Vjestica)	DEFCP
+Schizosaccharomyces pombe 972h-	Post-transcriptional Gene Regulation & Pre-mRNA Splicing (Awan et al. 2013)	FCP
+Schizosaccharomyces pombe 972h-	Effect of Dicer mutants on small RNA expression (Barraud et al. 2011)	DEFCPSA
+Sclerotinia sclerotiorum 1980 UF-70	Host specific transcriptional response in Sclerotinia sclerotiorum (SE) (Kusch et al. 2022)	DEFCP
+Sclerotinia sclerotiorum 1980 UF-70	Transcriptome during the colonization of plant species (Kusch et al.)	DEFCP
+Spironucleus salmonicida ATCC50377	Transcriptome from pooled trophozoite exponential and stationary stages (Xu et al.)	P
+Sporothrix schenckii 1099-18	Transcriptome of hyphal and yeast forms (Zheng et al. 2019)	FCP
+Sporothrix schenckii 1099-18	Transcriptome profiling of yeast and mycelial forms (Romeo et al. 2020)	DEFCPSA
+Spraguea lophii 42_110	Transcriptome from spores germinated in-vitro (Campbell et al.)	P
+Talaromyces marneffei ATCC 18224	Comparative analysis of transcriptome of Penicillium marneffei PM1 grown at 25°C and 37°C (Yang et al. 2013)	DEFCP
+Theileria annulata strain Ankara	Transcriptome from infected B cells (Cheeseman, Jannot, Lourenço and Villares et al.)	P
+Theileria parva strain Muguga	Schizont transcriptome for Theileria parva (JC Silva)	P
+Topomyia yanbarensis Yona2022	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Topomyia yanbarensis Yona2022	Adult bodies, with no head, and immature life stages (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Toxoplasma gondii ME49	Full life-cycle transcriptome of T. gondii (Ramakrishnan et al.)	DEFCPSA
+Toxoplasma gondii ME49	T. gondii during infection in IEC18 cells (Dual RNA-Seq) (Guiton et al. 2017)	DEFCP
+Toxoplasma gondii ME49	T. gondii during spontaneous differentiation in primary rat brain cells. (Mouveaux et al. 2021)	DEFCPSA
+Toxoplasma gondii ME49	RNA-Seq of CPSF4 WT and CPSF4 KD parasites (Farhat et al.)	DEFCPSA
+Toxoplasma gondii ME49	RNA-Seq of MORC WT and MORC KD parasites (Farhat et al.)	DEFCP
+Toxoplasma gondii ME49	RNA-seq of tartrolon E-treated T. gondii RH parasites (Bowden et al. 2020)	DEFCPSA
+Toxoplasma gondii ME49	Stage-specific RNA-sequencing in Toxoplasma gondii (Waldman et al.)	DEFCP
+Toxoplasma gondii ME49	Parasite transcriptome during infection in mouse brain. (Merritt et al.)	DEFCP
+Toxoplasma gondii ME49	Transcriptome of Wild-Type and gra18 mutant strains of T. gondii (He et al.)	DEFCP
+Toxoplasma gondii ME49	Feline enterocyte, tachyzoite, bradyzoite stage transcriptome (Hehl, Ramakrishnan et al.)	DEFCPSA
+Toxoplasma gondii ME49	Comparative ribosome profiling of intracellular and extracellular parasites (Hassan et al.)	DEFCPSA
+Toxoplasma gondii ME49	T gondii Transcriptome during infection in 4 mouse cell types (Swierzy et al.)	DEFCP
+Toxoplasma gondii ME49	Transcriptomes of 29 strains during murine macrophage infection (Minot et al.)	DEFCP
+Toxoplasma gondii ME49	Transcriptome during acute or chronic infection in mouse brain (Pittman et al.)	DEFCP
+Toxoplasma gondii ME49	Tachyzoite and merozoite transcriptomes (Hehl et al.)	DEFCPSA
+Toxoplasma gondii ME49	Bradyzoite in vivo transcriptome (M4) (Buchholz et al.)	P
+Toxoplasma gondii ME49	Bradyzoite in vitro Transcriptome (ME49) (Sibley/Gregory)	P
+Toxoplasma gondii ME49	Oocyst Time Series (M4) (Fritz/Boothroyd/Gregory)	FCPSA
+Toxoplasma gondii ME49	Tachyzoite Transcriptome Time Series (ME49) (Gregory)	DEFCPSA
+Toxoplasma gondii ME49	Tachyzoite Transcriptome Time Series (GT1) (Gregory)	DEFCPSA
+Toxoplasma gondii ME49	Tachyzoite Transcriptome Time Series (RH) (Gregory)	FCPSA
+Toxoplasma gondii ME49	Tachyzoite Transcriptome Time Series (VEG) (Gregory)	DEFCPSA
+Toxoplasma gondii ME49	Tachyzoite Transcriptome 3 and 4 days post-infection (VEG NcLIV) (Reid et al.)	DEFCP
+Toxoplasma gondii ME49	Mouse brain bradyzoite transcriptomes at 28, 90, 120 days post infection (Garfoot et al.)	DEFCP
+Toxorhynchites rutilus septentrionalis SRP	Adult bodies, with no head, and immature life stages (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Toxorhynchites rutilus septentrionalis SRP	Male and female head transcriptomes (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Trichoderma reesei QM6a	Transcriptomic response to the two industrial feedstocks, corn stover and soybean hulls (Benocci et al. 2019)	DEFCPSA
+Trichomonas vaginalis G3 2022	T vaginalis transcriptome during Mycoplasma infection (Margarita et al. 2022)	DEFCPSA
+Trichomonas vaginalis G3 2022	T vaginalis transcriptome response to apicidin (HDAC inhibitor) (Song et al. 2017)	DEFCPSA
+Trichomonas vaginalis G3 2022	T vaginalis transcriptome response to metronidazole (Xie et al. 2023)	DEFCPSA
+Trichophyton rubrum CBS 118892	Transcriptome profiling of Trichophyton rubrum on glucose and keratin (Martins-Santana et al. 2023)	DEFCPSA
+Trichophyton rubrum CBS 118892	RNA-Seq Trichophyton rubrum and HaCat Keratinocyte Co-Culture (Petrucelli et al. 2018)	DEFCP
+Trichophyton tonsurans CBS 112818	HaCaT keratinocytes co-cultured with Trichophyton spp (Ma et al., 2023)	FCP
+Trypanosoma brucei brucei TREU927	Transcriptome of T brucei from midgut (days 3-28), proventriculus and salivary glands (Naguleswaran et al 2021)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Metacyclic vs Procyclic form transcriptomes (2020) (Doleželová et al. 2020)	DEFCPSA
+Trypanosoma brucei brucei TREU927	T brucei in vitro-induced differentiation (2020) (Doleželová et al. 2020)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Influence of glucose on transcriptome of SS, LS, PC (Qiu et al.)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Transcriptome of T. brucei rhodesiense from human, rodent, culture (Mulindwa et al.)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Circadian control of bloodstream and procyclic form transcriptome (AnTat1.1) (Rijo-Ferreira et al.)	DEFCMCP
+Trypanosoma brucei brucei TREU927	Procyclic and bloodstream form transcriptomes and ribosome profiling (Jensen et al.)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Transcriptome during RNAi knockdown of Orc1/Cdc6 (Tiengwe et al.)	FCP
+Trypanosoma brucei brucei TREU927	Procyclic form spliced leader transcriptome (Kolev et al.)	P
+Trypanosoma brucei brucei TREU927	Procyclic form 5 and 3 end-enriched transcriptomes (Kolev et al.)	DEP
+Trypanosoma brucei brucei TREU927	Bloodstream and procyclic form spliced leader transcriptomes (427, Antat)(2010) (Nilsson et al.)	SSLFCP
+Trypanosoma brucei brucei TREU927	Adipose tissue vs bloodstream form transcriptomes (Trindade et al.)	DEFCP
+Trypanosoma brucei brucei TREU927	mRNA degradation (Manful et al.)	DEP
+Trypanosoma brucei brucei TREU927	Spliced Leader and Poly A Sites from bloodstream and procyclic forms (Siegel et al.)	P
+Trypanosoma brucei brucei TREU927	Cell Cycle Transcriptome (Archer et al.)	DEFCP
+Trypanosoma brucei brucei TREU927	Bloodstream and Procyclic Form Transcriptomes (Siegel et al.)	FCP
+Trypanosoma brucei brucei TREU927	Bloodstream and Procyclic for spliced leader transcriptomes (927, 427)(2014) (Jensen et al.)	SSLFCP
+Trypanosoma brucei brucei TREU927	Transcriptomes of T. brucei culture-derived slender/stumpy bloodstream and early/late procyclic forms (Naguleswaran et al.)	DEFCPSA
+Trypanosoma brucei brucei TREU927	Procyclic and bloodstream form mRNA transcriptome and ribosome profiling (Vasquez et al.)	DEFCPSA
+Trypanosoma congolense IL3000	RNASeq of sequestered and non-sequestered T. congolense (Porqueddu et al. 2025)	DEFCPSA
+Trypanosoma cruzi CL Brener Esmeraldo-like	T cruzi life stages transcriptomes (Diaz-Viraque et al.)	DEFCPSA
+Trypanosoma cruzi CL Brener Esmeraldo-like	Comparative transcriptomes of virulent and avirulent T. cruzi (Esmo aligned) (Belew et al. 2017)	DEFCP
+Trypanosoma cruzi CL Brener Esmeraldo-like	Transcriptome and Translatome of epimastigote and metacyclic stages (Esmo aligned) (Smircich et al.)	DEFCP
+Trypanosoma cruzi CL Brener Esmeraldo-like	Transcriptome during Infection in Human Fibroblasts (Esmo aligned) (Li et al.)	DEFCP
+Trypanosoma cruzi CL Brener Non-Esmeraldo-like	Comparative transcriptomes of virulent and avirulent T. cruzi (Non-Esmo aligned) (Belew et al. 2017)	DEFCP
+Trypanosoma cruzi CL Brener Non-Esmeraldo-like	Transcriptome and Translatome of epimastigote and metacyclic stages (NonEsmo aligned) (Smircich et al.)	DEFCP
+Trypanosoma cruzi CL Brener Non-Esmeraldo-like	Transcriptome during Infection in Human Fibroblasts (NonEsmo aligned) (Li et al.)	DEFCP
+Trypanosoma cruzi Dm28c 2018	T cruzi life stages transcriptomes aligned to T cruzi Dm28c 2018 (Diaz-Viraque et al.)	DEFCPSA
+Trypanosoma cruzi strain CL Brener	Comparative transcriptomes of virulent and avirulent T. cruzi (CLBrener aligned) (Belew et al. 2017)	DEFCP
+Trypanosoma cruzi strain CL Brener	Transcriptome and Translatome of epimastigote and metacyclic stages (CL Brener aligned) (Smircich et al.)	DEFCP
+Trypanosoma cruzi strain CL Brener	Transcriptome during Infection in Human Fibroblasts (CLBrener aligned) (Li et al.)	DEFCP
+Uranotaenia lowii MFRU-FL	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Uranotaenia lowii MFRU-FL	Adult bodies, with no head, and immature life stages (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Verticillium dahliae JR2	Expression profiles of Verticillium dahliae co-cultured with Arabidopsis roots (Scholz et al. 2018)	DEFCP
+Vitrella brassicaformis CCMP3155	Transcriptome in normal culture conditions (Woo et al.)	P
+Wyeomyia smithii HCP4	Sex-specific mosquito brain (Vosshall et al 2020, unpublished)	DEFCPSA
+Wyeomyia smithii HCP4	Male and female adult heads (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Wyeomyia smithii HCP4	Adult bodies, with no head, and immature life stages (Houri-Zeevi and Vosshall 2023, unpublished)	DEFCPSA
+Zymoseptoria tritici IPO323	Transcriptional profiling of Z. tritici isolates during wheat infection (Chen et al. 2023)	DEFCP
+Zymoseptoria tritici IPO323	Zymoseptoria tritici RNA-Seq across multiple growth media conditions (Lapalu et al., 2023)	DEFCPSA
+Zymoseptoria tritici IPO323	Small RNA profiling of the infection cycle of Zymoseptoria tritici on wheat (Kettles et al. 2019)	DEFCPSA
