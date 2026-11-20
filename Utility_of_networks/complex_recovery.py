@@ -6,7 +6,7 @@
 #
 # Input:
 #   - plas_pearson_top50.tsv, plas_mr_top50.tsv, plas_wgcna_top50.tsv, plas_modules_top50.tsv
-#                                                top 50 partners per gene (see build_coexpression_networks.R)
+#                                                top 50 partners per gene (see build_network.R)
 #   - plas_complexes dictionary below see complex_pairs.py
 #
 # Output:
