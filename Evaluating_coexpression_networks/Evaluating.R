@@ -4,12 +4,11 @@
 # (rescaled PCC, WGCNA TOM, binary WGCNA module membership, ranked PCC, ranked MR) using
 # EGAD neighbour voting (GO AUROC, degree null, multifunctionality) and complex-pair AUPRC.
 # Input (per organism, set in the organisms list):
-#   - expr:  combined RNA-seq TPM table (.tsv), one row per gene, first column "Gene ID"
+#   - expr:  combined RNA-seq TPM table
 #   - batch: batch vector input for Combat
-#   - genes: genes of interest (.txt) with a "Gene ID" column, used for the top 50 outputs
-#   - go:    propagated GO annotations (.tsv), gene in column 1 and GO term in column 2
-#            (see Propagated_GO.py)
-#   - pairs: complex gene pairs (.tsv) with columns Gene1, Gene2 and Label
+#   - genes: genes of interest 
+#   - go:    propagated GO annotations (see Propagated_GO.py)
+#   - pairs: complex gene pairs 
 #            (1 = same complex, 0 = different complexes; see Complex_Pairs.py)
 # Output (per organism):
 #   - {org}_expression_matrix.tsv        batch-corrected log2(TPM + 1) matrix (Pearson / MR input)
