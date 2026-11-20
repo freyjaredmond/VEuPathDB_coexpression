@@ -8,6 +8,10 @@ WGCNA v1.7.4 was run on filtered log2(TPM + 1) values that had been quantile nor
 
 Mutual rank networks for the seven organisms have been deposited in X.
 
+To explore the utility of these networks (see [Utility](../Utility_of_networks)) at a gene-level, the top 10, 20 and 50 co-expressed partners were extracted from four networks: PCC, MR, WGCNA TOM and WGCNA TOM restricted to the gene’s module.
+
+The co-expressed partners for these different methods have been deposited in X
+
 # Evaluating the co-expression networks
 
 Neighbour-voting AUROC and complex-recovery AUPRC were calculated for seven organisms with varying RNA-seq coverage using [Evaluating.R](Evaluating.R). Five networks were compared: PCC, ranked PCC, WGCNA TOM, binary WGCNA module co-membership and ranked MR.
