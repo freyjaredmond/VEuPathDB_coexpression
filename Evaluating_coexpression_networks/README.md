@@ -53,4 +53,8 @@ Sample number was the main driver of performance: at the same sample size, netwo
 
 ![Subsampling results](Subsampling/fig1.png)
 
+Figure 1: Effect of sample number on network performance.  
+
+Ranked MR networks were built from five random combinations of datasets at every second dataset count (2, 4, 6, …) and rerun with half the number of samples from the same datasets. (A, C) Neighbour-voting AUROC for A. fumigatus (A) and T. gondii (C), with degree-null AUROC shown for comparison. Random performance and the threshold for good performance (AUROC 0.7) are shown. Degree null is also provided for the full-sample draws (B, D) Complex-recovery AUPRC for A. fumigatus (B) and T. gondii (D), with random performance is also shown. In all panels, bubble size indicates the number of datasets in each network.  
+
 Using the mean dataset count at the lenient (*A. fumigatus*) and strict (*T. gondii*) sample-size thresholds gives the organisms in VEuPathDB with sufficient RNA-seq data: [lenient](Subsampling/lenient_rna_organism.tsv) and [strict](Subsampling/strict_rna_organism.tsv).
