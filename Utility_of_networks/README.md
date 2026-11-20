@@ -16,6 +16,10 @@ PCC and MR generally performed better than WGCNA. Recovery declined as sample si
 
 ![GO matching and complex recovery](fig2.png)
 
+Figure 2: Functional relationships between co-expressed partners 
+
+The top 10, 20 and 50 co-expressed partners of each gene were extracted from four networks (WGCNA TOM, blue; WGCNA TOM restricted to modules, orange; PCC, pink; MR, green) and compared with a random baseline (grey). The results are shown for four genomes: P. falciparum, T. gondii, C. auris and A. nidulans. (A, C, E, G) Mean percentage of co-expressed partners sharing at least one GO term (≤300 genes) with the gene of interest, for every gene annotated in that ontology; error bars show the interquartile range. (B, D, F, H) Mean percentage of each complex recovered within a subunit’s top partners, averaged across subunits, for the 20S proteasome, RNA polymerase II, CCT, MCM2-7 and the V-ATPase. 
+
 ## Why were some complexes poorly recovered?
 
 - **Expression patterns:** mean-centred, batch-corrected log2(TPM + 1) expression was plotted for each complex member using [Complex expression](complex_expression.py). Clear bands of expression were seen for the proteasome, CCT and MCM2–7. RNA polymerase II also showed bands, but these mirrored CCT, while the V-ATPase showed no clear bands.
@@ -23,3 +27,7 @@ PCC and MR generally performed better than WGCNA. Recovery declined as sample si
 - **Subunit × subunit MR ranks:** a matrix of each subunit's MR rank for every other member of its complex was produced using [MR matrix](mr_rank_matrix.py). In RNA polymerase II, RPB1 and RPB2 consistently ranked each other highly, but no other clear pattern was seen for RNA polymerase II or the V-ATPase.
 
 ![Complex expression, variability and MR ranks](fig3.png)
+
+Figure 3: Recovery of complexes 
+
+(A) Mean-centred, batch-corrected log2(TPM + 1) expression of members of five complexes (20S proteasome, RNA polymerase II, CCT, MCM2-7 and V-ATPase) across the datasets used to construct the P. falciparum co-expression network. Datasets are ordered with intraerythrocytic developmental cycle (IDC) time-course datasets first. (B-D) Standard deviation of expression across all samples for each complex in P. falciparum (B), T. gondii (C) and A. fumigatus (D), with the standard deviation of expression for all genes given for comparison. (E-G) Subunit × subunit matrices for P. falciparum (E), T. gondii (F) and A. fumigatus (G), showing the MR rank of each complex member (columns) within each subunit’s co-expression list (rows), binned into 1-10, 11-20, 21-50, 51-100, 101-200 and >200. Subunits are named using S. cerevisiae nomenclature. 
