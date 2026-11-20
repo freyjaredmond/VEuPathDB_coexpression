@@ -17,8 +17,7 @@
 #                                                   cutoff and ontology (including random)
 #   - methods_ttest_paired_propogated.tsv           paired t-test results with 95% CI of the mean difference
 #   - mean_bar_iqr_methods.png                      mean percentage match with interquartile range
-#
-# Packages: pandas, matplotlib, seaborn, scipy
+
 
 import pandas as pd
 import os
