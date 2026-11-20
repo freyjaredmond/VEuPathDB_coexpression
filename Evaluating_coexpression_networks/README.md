@@ -1,6 +1,6 @@
 # Building the co-expression networks
 
-Combined RNA-seq datasets were obtained for seven organisms (see [datasets](../datasets)), and networks were built using [Build_networks.R](Build_networks.R).
+Combined RNA-seq datasets were obtained for seven organisms (see [datasets](../Datasets)), and networks were built using [Build_networks.R](Build_networks.R).
 
 Pearson's correlation coefficients (PCC) and mutual rank (MR) were calculated on filtered, batch-corrected log2(TPM + 1) values. MR was calculated as the geometric mean of the two ranks, √(rank_AB × rank_BA).
 
