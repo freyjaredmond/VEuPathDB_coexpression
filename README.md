@@ -13,7 +13,7 @@ Optimal preprocessing was assessed in four genomes (*A. fumigatus*, *A. gambiae*
 ## Evaluation
 The three methods were assessed across the seven genomes using neighbour-voting AUROC and complex-recovery AUPRC, as detailed in [Evaluating_coexpression_networks](Evaluating_coexpression_networks/README.md). PCC and MR were superior for complex recovery. Subsampling was also used to estimate the sample size needed for good-quality networks.
 
-![Subsampling results](Evaluating_coexpression_networks/fig1.png)
+![Subsampling results](Evaluating_coexpression_networks/Subsampling/fig1.png)
 
 ## Utility
 The practical use of these networks for a VEuPathDB user was explored using GO term matching and complex recovery among each gene's top co-expression partners, as detailed in [Utility_of_networks](Utility_of_networks/README.md). In general, PCC and MR performed best.
