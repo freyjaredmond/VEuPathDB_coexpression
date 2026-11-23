@@ -1,0 +1,51 @@
+gene	correlated_gene	MR	Product Description
+PF3D7_1315500	PF3D7_1356700	8.77496438739212	DnaJ protein, putative
+PF3D7_1315500	PF3D7_1464700	10.3923048454133	ATP synthase (C/AC39) subunit, putative
+PF3D7_1315500	PF3D7_0524800	10.6770782520313	ubiquitin fusion degradation protein 1, putative
+PF3D7_1315500	PF3D7_0410600	11.6189500386223	armadillo-type repeat protein ATRP
+PF3D7_1315500	PF3D7_1146200	11.6189500386223	conserved Plasmodium protein, unknown function
+PF3D7_1315500	PF3D7_0403500	11.7473401244707	ubiquitin-specific protease
+PF3D7_1315500	PF3D7_1354400	12.328828005938	V-type proton ATPase 21 kDa proteolipid subunit, putative
+PF3D7_1315500	PF3D7_1326100	13.6014705087354	WD repeat-containing protein, putative
+PF3D7_1315500	PF3D7_1468300	13.7113092008021	leucine-rich repeat protein
+PF3D7_1315500	PF3D7_1411300	14.4913767461894	DnaJ protein, putative
+PF3D7_1315500	PF3D7_0305700	15.556349186104	ubiquitin-conjugating enzyme MMS2, putative
+PF3D7_1315500	PF3D7_1366800	17.4928556845359	phosphatidylserine synthase
+PF3D7_1315500	PF3D7_0509000	22.7156333832011	alpha-soluble NSF attachment protein, putative
+PF3D7_1315500	PF3D7_1125900	23.4946802489415	XTBD domain-containing protein, putative
+PF3D7_1315500	PF3D7_0406000	30.3973683071413	conserved protein, unknown function
+PF3D7_1315500	PF3D7_1102400	33.5857112474933	phosphopantothenate--cysteine ligase, putative
+PF3D7_1315500	PF3D7_0519200	35.4682957019364	V-type proton ATPase 16 kDa proteolipid subunit
+PF3D7_1315500	PF3D7_1236700	37.1483512420134	S-adenosyl-methyltransferase, putative
+PF3D7_1315500	PF3D7_0511700	43.4741302385683	EKC/KEOPS complex subunit CGI121
+PF3D7_1315500	PF3D7_1405100	47.0319040652194	GTPase-activating protein, putative
+PF3D7_1315500	PF3D7_1211900	52.0	non-SERCA-type Ca2+ -transporting P-ATPase
+PF3D7_1315500	PF3D7_0621500	53.8144961882948	ribonuclease P/MRP protein subunit RPP1, putative
+PF3D7_1315500	PF3D7_0613100	58.9576118919347	conserved Plasmodium protein, unknown function
+PF3D7_1315500	PF3D7_1244100	60.0333240792145	N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative
+PF3D7_1315500	PF3D7_0314600	72.0555341386073	conserved protein, unknown function
+PF3D7_1315500	PF3D7_1004800	73.0068489937759	ADP,ATP carrier protein 2
+PF3D7_1315500	PF3D7_0914900	75.6240702422185	BSD-domain protein, putative
+PF3D7_1315500	PF3D7_0926200	76.124897372673	conserved Plasmodium protein, unknown function
+PF3D7_1315500	PF3D7_0619100	78.4155596804614	conserved Plasmodium protein, unknown function
+PF3D7_1315500	PF3D7_1429700	79.7496081495075	ribosomal protein L15, mitochondrial, putative
+PF3D7_1315500	PF3D7_1309200	83.4865258589672	protein phosphatase PPM6, putative
+PF3D7_1315500	PF3D7_0515800	88.2043082847998	BolA-like protein, putative
+PF3D7_1315500	PF3D7_1470000	108.0	autophagy-related protein 12, putative
+PF3D7_1315500	PF3D7_0904500	111.031527054256	prefoldin subunit 4, putative
+PF3D7_1315500	PF3D7_0209300	113.366661766147	2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+PF3D7_1315500	PF3D7_1368900	113.841995766062	conserved protein, unknown function
+PF3D7_1315500	PF3D7_1430000	114.455231422596	conserved protein, unknown function
+PF3D7_1315500	PF3D7_0630700	116.254032188135	bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, putative
+PF3D7_1315500	PF3D7_1202100	117.983049630021	SRAP domain-containing protein, putative
+PF3D7_1315500	PF3D7_0826600	118.28778466097	SNARE protein, putative
+PF3D7_1315500	PF3D7_1232900	120.938000644959	nucleotidyltransferase, putative
+PF3D7_1315500	PF3D7_1354200	122.56426885516	phosphoinositide phosphatase SAC1
+PF3D7_1315500	PF3D7_0622500	123.765908068418	RNA methyltransferase, putative
+PF3D7_1315500	PF3D7_1368400	123.842642090679	ribosomal protein L1, putative
+PF3D7_1315500	PF3D7_1429900	124.719685695563	ADP-dependent DNA helicase RecQ
+PF3D7_1315500	PF3D7_1310300	127.74975538137	zinc finger protein, putative
+PF3D7_1315500	PF3D7_1209700	129.711217710728	conserved protein, unknown function
+PF3D7_1315500	PF3D7_1111500	129.799845916704	acylphosphatase, putative
+PF3D7_1315500	PF3D7_1136500	131.590273196768	casein kinase 1
+PF3D7_1315500	PF3D7_0910600	133.603892158874	SNARE protein
