@@ -1,6 +1,6 @@
 # VEuPathDB_coexpression
 
-###This repository holds the scripts and results for the paper "Optimising construction of co-expression networks for eukaryotic pathogens and vectors to infer gene function".
+### This repository holds the scripts and results for the paper "Optimising construction of co-expression networks for eukaryotic pathogens and vectors to infer gene function".
 
 Three co-expression network construction methods (Pearson correlation coefficient (PCC), mutual rank (MR) and weighted gene co-expression network analysis (WGCNA)) were compared across seven genomes (*Aspergillus fumigatus*, *Aspergillus nidulans*, *Anopheles gambiae*, *Candida auris*, *Plasmodium berghei*, *Plasmodium falciparum* and *Toxoplasma gondii*). Networks were evaluated by GO term prediction and protein complex recovery, with the aim of assessing the utility of co-expression networks for VEuPathDB.
 
