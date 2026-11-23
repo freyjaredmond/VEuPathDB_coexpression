@@ -1,0 +1,51 @@
+gene,correlated_gene,MR,Product Description,,reactifPTM
+PF3D7_1315500,PF3D7_1356700,8.774964,"DnaJ protein, putative",,0.658
+PF3D7_1315500,PF3D7_1464700,10.3923,"ATP synthase (C/AC39) subunit, putative",,0.42
+PF3D7_1315500,PF3D7_0524800,10.67708,"ubiquitin fusion degradation protein 1, putative",,0.623
+PF3D7_1315500,PF3D7_0410600,11.61895,armadillo-type repeat protein ATRP,,0.464
+PF3D7_1315500,PF3D7_1146200,11.61895,"conserved Plasmodium protein, unknown function",,0.24
+PF3D7_1315500,PF3D7_0403500,11.74734,ubiquitin-specific protease,,0.211
+PF3D7_1315500,PF3D7_1354400,12.32883,"V-type proton ATPase 21 kDa proteolipid subunit, putative",,0.14
+PF3D7_1315500,PF3D7_1326100,13.60147,"WD repeat-containing protein, putative",,0.184
+PF3D7_1315500,PF3D7_1468300,13.71131,leucine-rich repeat protein,,0.14
+PF3D7_1315500,PF3D7_1411300,14.49138,"DnaJ protein, putative",,0.153
+PF3D7_1315500,PF3D7_0305700,15.55635,"ubiquitin-conjugating enzyme MMS2, putative",,0.228
+PF3D7_1315500,PF3D7_1366800,17.49286,phosphatidylserine synthase,,0.194
+PF3D7_1315500,PF3D7_0509000,22.71563,"alpha-soluble NSF attachment protein, putative",,0.122
+PF3D7_1315500,PF3D7_1125900,23.49468,"XTBD domain-containing protein, putative",,0.183
+PF3D7_1315500,PF3D7_0406000,30.39737,"conserved protein, unknown function",,0.883
+PF3D7_1315500,PF3D7_1102400,33.58571,"phosphopantothenate--cysteine ligase, putative",,0.245
+PF3D7_1315500,PF3D7_0519200,35.4683,V-type proton ATPase 16 kDa proteolipid subunit,,0.099
+PF3D7_1315500,PF3D7_1236700,37.14835,"S-adenosyl-methyltransferase, putative",,0.832
+PF3D7_1315500,PF3D7_0511700,43.47413,EKC/KEOPS complex subunit CGI121,,0.745
+PF3D7_1315500,PF3D7_1405100,47.0319,"GTPase-activating protein, putative",,0.239
+PF3D7_1315500,PF3D7_1211900,52,non-SERCA-type Ca2+ -transporting P-ATPase,,0.982
+PF3D7_1315500,PF3D7_0621500,53.8145,"ribonuclease P/MRP protein subunit RPP1, putative",,0.146
+PF3D7_1315500,PF3D7_0613100,58.95761,"conserved Plasmodium protein, unknown function",,0.255
+PF3D7_1315500,PF3D7_1244100,60.03332,"N-alpha-acetyltransferase 15, NatA auxiliary subunit, putative",,0.425
+PF3D7_1315500,PF3D7_0314600,72.05553,"conserved protein, unknown function",,0.081
+PF3D7_1315500,PF3D7_1004800,73.00685,"ADP,ATP carrier protein 2",,0.173
+PF3D7_1315500,PF3D7_0914900,75.62407,"BSD-domain protein, putative",,0.937
+PF3D7_1315500,PF3D7_0926200,76.1249,"conserved Plasmodium protein, unknown function",,0.32
+PF3D7_1315500,PF3D7_0619100,78.41556,"conserved Plasmodium protein, unknown function",,0.399
+PF3D7_1315500,PF3D7_1429700,79.74961,"ribosomal protein L15, mitochondrial, putative",,0.073
+PF3D7_1315500,PF3D7_1309200,83.48653,"protein phosphatase PPM6, putative",,0.409
+PF3D7_1315500,PF3D7_0515800,88.20431,"BolA-like protein, putative",,0.105
+PF3D7_1315500,PF3D7_1470000,108,"autophagy-related protein 12, putative",,0.099
+PF3D7_1315500,PF3D7_0904500,111.0315,"prefoldin subunit 4, putative",,0.852
+PF3D7_1315500,PF3D7_0209300,113.3667,"2C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",,0.189
+PF3D7_1315500,PF3D7_1368900,113.842,"conserved protein, unknown function",,0.15
+PF3D7_1315500,PF3D7_1430000,114.4552,"conserved protein, unknown function",,0.324
+PF3D7_1315500,PF3D7_0630700,116.254,"bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, putative",,0.53
+PF3D7_1315500,PF3D7_1202100,117.983,"SRAP domain-containing protein, putative",,0.232
+PF3D7_1315500,PF3D7_0826600,118.2878,"SNARE protein, putative",,0.167
+PF3D7_1315500,PF3D7_1232900,120.938,"nucleotidyltransferase, putative",,0.136
+PF3D7_1315500,PF3D7_1354200,122.5643,phosphoinositide phosphatase SAC1,,0.575
+PF3D7_1315500,PF3D7_0622500,123.7659,"RNA methyltransferase, putative",,0.146
+PF3D7_1315500,PF3D7_1368400,123.8426,"ribosomal protein L1, putative",,0.129
+PF3D7_1315500,PF3D7_1429900,124.7197,ADP-dependent DNA helicase RecQ,,0.286
+PF3D7_1315500,PF3D7_1310300,127.7498,"zinc finger protein, putative",,0.142
+PF3D7_1315500,PF3D7_1209700,129.7112,"conserved protein, unknown function",,0.355
+PF3D7_1315500,PF3D7_1111500,129.7998,"acylphosphatase, putative",,0.39
+PF3D7_1315500,PF3D7_1136500,131.5903,casein kinase 1,,0.124
+PF3D7_1315500,PF3D7_0910600,133.6039,SNARE protein,,0.081
